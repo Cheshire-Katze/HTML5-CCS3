@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    height: 100%;
+    
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.padding-site {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.header {
+    height: 323px;
+    background-color: #445162;
+}
+
+/* Подвал ---------------*/
+
+.clr {
+    height: 530px;
+}
