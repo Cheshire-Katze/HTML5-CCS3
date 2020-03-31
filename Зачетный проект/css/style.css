@@ -1,0 +1,22 @@
+/*general ------------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    min-height: 100%;
+}
+
+.container {
+    width: 1920px;
+    min-height: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    min-height: 1024px;
+    background-image: url(../img/bg_photo_header.png)
+}
