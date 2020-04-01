@@ -20,3 +20,94 @@ html {
     min-height: 1024px;
     background-image: url(../img/bg_photo_header.png)
 }
+
+
+/*header ---------------------------------------------*/
+
+.header-wrp-logo-list {
+    width: 1170px;
+    min-height: 56px;
+    padding: 40px 375px 0;
+}
+
+.header-logo {
+    display: block;
+    width: 64px;
+    height: 56px;
+    background-image: url(../img/logo.png);
+    float: left;
+}
+
+.header-name-site {
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 34px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: -0.04em;
+    color: #ffffff;
+    float: left;
+    margin: 10px 0 0 0
+}
+
+.wrp-list-backet-search {
+    width: 770px;
+    min-height: 24px;
+    float: right;
+}
+
+.header-list {
+    list-style: none;
+}
+
+.header-list-item {
+    float: left;
+    margin: 23px 26px 0 0;
+}
+
+.header-list-item-list-link {
+    display: inline-block;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header-list-item-list-link:hover {
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #c7b299;
+}
+
+.wrp-backet-search {
+    width: 70px;
+    min-height: 24px;
+    float: right;
+}
+
+.header-basket {
+    display: block;
+    width: 18px;
+    height: 24px;
+    background-image: url(../img/backet.png);
+    float: left;
+    margin: 20px 26px 0 0;
+}
+
+.header-search {
+    width: 24px;
+    height: 24px;
+    margin: 20px 0 0 0;
+}
+
+/*слайдер -------------------------------------------*/
+
+.header-slider {
+    width: 1620px;
+    min-height: 261px;
+    margin: 309px 150px 0;
+}
