@@ -92,7 +92,7 @@ html {
 .header-basket {
     display: block;
     width: 18px;
-    height: 24px;
+    min-height: 24px;
     background-image: url(../img/backet.png);
     float: left;
     margin: 20px 26px 0 0;
@@ -100,14 +100,111 @@ html {
 
 .header-search {
     width: 24px;
-    height: 24px;
+    min-height: 24px;
     margin: 20px 0 0 0;
 }
+
 
 /*слайдер -------------------------------------------*/
 
 .header-slider {
     width: 1620px;
     min-height: 261px;
-    margin: 309px 150px 0;
+    margin: 285px 150px 0;
+}
+
+.header-slider-left-button {
+    width: 40px;
+    min-height: 73px;
+    background-image: url(../img/slider-left.png);
+    border: none;
+    outline: none;
+    background-color: transparent;
+    opacity: 0.5;
+    float: left;
+    margin: 94px 500px 0 0;
+}
+
+.header-slider-left-button:hover {
+    background-image: url(../img/slider-left-hover.png);
+}
+
+.header-slider-left-button:active {
+    background-image: url(../img/slider-left.png);
+}
+
+.header-slider-text-wrp {
+    width: 589px;
+    min-height: 261px;
+    text-align: center;
+    float: left;
+    
+}
+
+.header-slider-h2 {
+    font-family: Raleway;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 0 0 10px 0;
+}
+
+.header-slider-h1 {
+    font-family: Raleway;
+    font-size: 52px;
+    line-height: 1.2;
+    font-weight: 800;
+    color: #ffffff;
+    margin: 0 0 15px 0;
+}
+
+.header-slider-p {
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.header-slider-link {
+    display: block;
+    width: 170px;
+    background-color: #998675;
+    border-radius: 3px;
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    margin: 30px 0 0 210px;
+}
+
+.header-slider-link:hover {
+    background-color: #ffffff;
+    color: #998675;
+}
+
+.header-slider-right-button {
+    width: 40px;
+    min-height: 73px;
+    background-image: url(../img/slider-right.png);
+    border: none;
+    outline: none;
+    background-color: transparent;
+    opacity: 0.5;
+    float: right;
+    margin: 94px 0 0 0;
+}
+
+.header-slider-right-button:hover {
+    background-image: url(../img/slider-right-hover.png);
+}
+
+.header-slider-right-button:active {
+    background-image: url(../img/slider-right.png);
 }
