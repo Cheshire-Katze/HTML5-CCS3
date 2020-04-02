@@ -226,6 +226,19 @@ html {
     display: none;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 .header-padination-radio-label {
     position: relative;
 }
@@ -237,16 +250,12 @@ html {
     height: 13px;
     border-radius: 50%;
     background-color: #fff;
+    border: 1px solid;
     position: absolute;
     /top: -100px;
     /left: 50px
 }
-
-
-
-
-
-
+*/
 
 /*
 .header-pagination label {
