@@ -19,7 +19,7 @@ html {
 .header {
     min-height: 1024px;
     background-image: url(../img/bg_photo_header.png);
-/*    position: relative;*/
+        position: relative;
 }
 
 
@@ -211,68 +211,35 @@ html {
 /*pagination ------------------------------------------*/
 
 .header-pagination {
-/*
+    display: flex;
+    justify-content: space-between;
     width: 130px;
-    min-height: 115px;
+    /min-height: 15px;
     text-align: center;
     position: absolute;
     top: 970px;
     left: 911px;
-    outline: 1px solid white;
-*/
+    /outline: 1px solid white;
+
 }
 
 .header-padination-radio-btn {
     display: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-/*
 .header-padination-radio-label {
-    position: relative;
-}
-
-.header-padination-radio-label:before {
-    content: "";
-    display: block;
-    width: 13px;
-    height: 13px;
     border-radius: 50%;
-    background-color: #fff;
-    border: 1px solid;
-    position: absolute;
-    /top: -100px;
-    /left: 50px
-}
-*/
-
-/*
-.header-pagination label {
-    position: relative;
-    display: inline-block;
-}
-*/
-
-/*
-.header-pagination label:before {
-    content: "";
-    display: inline-block;
-    height: 13px;
-    width: 13px;
-    border: 1px solid white;
+    height: 11px;
+    width: 11px;
+    opacity: 0.5;
+    background-color: #ffffff;
+    /margin-right: 10px;
 }
 
-.header-pagination:checked {
-    
-}*/
+.header-padination-radio-btn:checked + .header-padination-radio-label {
+    width: 15px;
+    height: 15px;
+    border: 2.0px solid #d3c1ad;
+    background-color: transparent;
+    top: -5px;
+}
