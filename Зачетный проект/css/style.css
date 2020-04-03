@@ -25,14 +25,15 @@ html {
 /*header ---------------------------------------------*/
 
 .header-wrp-logo-list {
-    width: 100%;
-    min-height: 56px;
     padding: 40px 375px 0;
-    clear: both;
+}
+
+.header-logo-namesite {
+    float: left;
 }
 
 .header-logo {
-    display: block;
+    display: inline-block;
     width: 64px;
     height: 56px;
     background-image: url(../img/logo.png);
@@ -40,6 +41,7 @@ html {
 }
 
 .header-name-site {
+    display: inline-block;
     text-decoration: none;
     font-family: Raleway;
     font-size: 34px;
@@ -47,15 +49,11 @@ html {
     font-weight: 300;
     letter-spacing: -0.04em;
     color: #ffffff;
-    float: left;
     margin: 10px 0 0 0;
 }
 
 .wrp-list-backet-search {
-    /width: 870px;
-    min-height: 24px;
-    float: left;
-    margin-left: 220px;
+    float: right;
 }
 
 .header-list {
@@ -64,7 +62,7 @@ html {
 
 .header-list-item {
     float: left;
-    margin: 23px 26px 0 0;
+    padding: 23px 26px 0 0;
 }
 
 .header-list-item-list-link {
@@ -85,33 +83,19 @@ html {
     color: #c7b299;
 }
 
-.wrp-backet-search {
-    min-height: 24px;
-    float: right;
-}
-
 .header-basket {
     display: block;
     width: 18px;
-    min-height: 24px;
+    height: 24px;
     background-image: url(../img/backet.png);
-    float: left;
-    margin: 20px 26px 0 0;
+    margin: -5px 0 0 35px;
 }
 
 form {
-    border: 1px solid white;
-    display: inline-block;
-    /width: 150px;
-    height: 23px;
-    margin: 20px 0 0 35px;
-    text-align: left;
     position: relative;
-    left: -40px;
 }
 
 .header-search {
-    border: 1px solid white;
     color: #fff;
     font-size: 15px;
     font-family: Montserrat;
@@ -120,12 +104,12 @@ form {
     height: 24px;
     text-indent: 0;
     outline: none;
-    /border: none;
+    border: none;
     background: transparent;
     transition: .4s cubic-bezier(0, 0.8, 0, 1);
     border-bottom: 1px solid transparent;
     position: absolute;
-    left: 6px;
+    top: -4px;
     z-index: 2;
 }
 
@@ -143,8 +127,7 @@ form {
     height: 24px;
     width: 24px;
     position: absolute;
-    top: 0;
-    right: 120px;
+    top: -4px;
     background-image: url(../img/search.png);
     background-repeat: no-repeat;
 }
@@ -155,7 +138,7 @@ form {
 .header-slider {
     width: 1620px;
     min-height: 261px;
-    margin: 285px 150px 0;
+    margin: 335px 150px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
