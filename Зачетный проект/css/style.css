@@ -19,7 +19,7 @@ html {
 .header {
     min-height: 1024px;
     background-image: url(../img/bg_photo_header.png);
-        position: relative;
+/*    position: relative;*/
 }
 
 
@@ -213,6 +213,65 @@ html {
 
 /*pagination ------------------------------------------*/
 
+.header-padination-radio-btn {
+    display: none;
+    
+}
+
+.header-padination-radio-label {
+    cursor: pointer;
+    position: relative;
+    margin: 0 12px;
+}
+
+.header-padination-radio-label:before {
+    position: absolute;
+    content: "";
+    display: flex;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    opacity: 0.5;
+    background-color: #ffffff;
+    left: 914px;
+    top: 330px;
+}
+
+.header-padination-radio-btn:checked + .header-padination-radio-label:before {
+    width: 15px;
+    height: 15px;
+    border: 2.0px solid #d3c1ad;
+    background-color: transparent;
+    top: 326px;
+    left: 910px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 .header-pagination {
     display: flex;
     justify-content: space-between;
@@ -246,5 +305,7 @@ html {
     background-color: transparent;
     top: -5px;
 }
+*/
+
 
 /*Блок 2. Ссылки куда-то... -----------------*/
