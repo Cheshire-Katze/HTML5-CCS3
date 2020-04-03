@@ -213,14 +213,6 @@ html {
 
 /*pagination ------------------------------------------*/
 
-/*
-.header-pagination {
-    width: 200px;
-    height: 100px;
-    
-}
-*/
-
 .header-padination-radio-btn {
     display: none;
     
@@ -229,7 +221,7 @@ html {
 .header-padination-radio-label {
     cursor: pointer;
     position: relative;
-    margin: 15px;
+    margin: 0 12px;
 }
 
 .header-padination-radio-label:before {
@@ -241,8 +233,8 @@ html {
     border-radius: 50%;
     opacity: 0.5;
     background-color: #ffffff;
-    left: 30px;
-    top: 30px;
+    left: 914px;
+    top: 330px;
 }
 
 .header-padination-radio-btn:checked + .header-padination-radio-label:before {
@@ -250,7 +242,8 @@ html {
     height: 15px;
     border: 2.0px solid #d3c1ad;
     background-color: transparent;
-    top: 25px;
+    top: 326px;
+    left: 910px;
 }
 
 
