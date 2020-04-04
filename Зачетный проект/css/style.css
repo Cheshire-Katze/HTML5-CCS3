@@ -268,6 +268,7 @@ form {
     top: 326px;
 }
 
+
 /*Блок 2. Ссылки куда-то... -----------------*/
 
 .links-to {
@@ -282,29 +283,30 @@ form {
     text-decoration: none;
 }
 
-.link-to:hover  .line  {
+.link-to:hover .line {
     background-color: #c7b299;
 }
 
-.link-to:hover .link-to-h3{
+.link-to:hover .link-to-h3 {
     color: #c7b299;
 }
 
-.link-to:hover .draw-image-wrp{
+.link-to:hover .draw-image-wrp {
     background-image: url(../img/draw-2.png);
 }
 
-.link-to:hover .development-image-wrp{
+.link-to:hover .development-image-wrp {
     background-image: url(../img/development-2.png);
 }
 
-.link-to:hover .customization-image-wrp{
+.link-to:hover .customization-image-wrp {
     background-image: url(../img/customization-2.png);
 }
 
-.link-to:hover .marketing-image-wrp{
+.link-to:hover .marketing-image-wrp {
     background-image: url(../img/marketing-2.png);
 }
+
 .draw-image-wrp {
     display: inline-block;
     width: 49px;
@@ -361,6 +363,50 @@ form {
     background-color: #f1eee9;
     margin-top: 30px;
 }
+
+
+/*блок 3. Продукт -----------------------*/
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 83px 345px 0;
+    background-color: #fbfaf8;
+}
+
+.product-h2 {
+    font-family: Raleway;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #555555;
+}
+
+.product-p {
+    display: block;
+    width: 770px;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #8c8c8c;
+    margin: 24px 0 40px;
+}
+
+.product-img {
+    display: block;
+    /width: 770px;
+    /height: 400px;
+    /background-image: url(../img/product-2.png);
+    /background-repeat: no-repeat;
+}
+
+
+
+
+
 
 
 
