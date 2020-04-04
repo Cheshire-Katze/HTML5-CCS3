@@ -403,9 +403,49 @@ form {
     /background-repeat: no-repeat;
 }
 
+/*блок 4. meta ------------------------*/
 
+.product-meta {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(90.0deg, #211b19 0%, #4e3427 100%);
+    padding: 48px 375px;
+}
+.product-meta-h2 {
+    font-family: Raleway;
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #c7b299;
+    margin: 0 0 8px 0;
+}
+.product-meta-p {
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #615855;
+}
+.product-meta-a {
+    display: inline-block;
+    font-family: Raleway;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 20px 29px;
+    background-color: #998675;
+    border-radius: 3.0px;
+}
 
-
+.product-meta-a:hover {
+    background-color: #fff;
+    color: #998675;
+}
 
 
 
