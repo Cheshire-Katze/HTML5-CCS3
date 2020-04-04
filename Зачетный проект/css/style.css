@@ -136,7 +136,6 @@ form {
 /*слайдер -------------------------------------------*/
 
 .header-slider {
-    width: 1620px;
     min-height: 261px;
     margin: 335px 150px 0;
     display: flex;
@@ -270,3 +269,109 @@ form {
 }
 
 /*Блок 2. Ссылки куда-то... -----------------*/
+
+.links-to {
+    display: flex;
+    align-items: center;
+    padding: 80px 377px;
+}
+
+.link-to {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.draw-image-wrp {
+    display: inline-block;
+    width: 49px;
+    height: 44px;
+    background-image: url(../img/draw.png);
+    background-repeat: no-repeat;
+}
+
+.development-image-wrp {
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    background-image: url(../img/development.png);
+    background-repeat: no-repeat;
+}
+
+.customization-image-wrp {
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    background-image: url(../img/customization.png);
+    background-repeat: no-repeat;
+}
+
+.marketing-image-wrp {
+    display: inline-block;
+    width: 52px;
+    height: 44px;
+    background-image: url(../img/marketing.png);
+    background-repeat: no-repeat;
+}
+
+.margin-top {
+    margin-top: 115px;
+}
+
+.link-to-h3 {
+    font-family: Raleway;
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #555555;
+    margin: 29px 0 19px;
+}
+
+.link-to-p {
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #8c8c8c;
+}
+
+.line {
+    display: inline-block;
+    width: 70px;
+    height: 3px;
+    background-color: #f1eee9;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
