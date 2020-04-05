@@ -25,13 +25,15 @@ html {
 /*header ---------------------------------------------*/
 
 .header-wrp-logo-list {
+    display: flex;
+    justify-content: space-between;
     padding: 40px 375px 0;
 }
 
 .header-logo-namesite {
     display: flex;
     align-items: center;
-    float: left;
+    /float: left;
 }
 
 .header-logo {
@@ -55,7 +57,7 @@ html {
 }
 
 .wrp-list-backet-search {
-    float: right;
+    /float: right;
 }
 
 .header-list {
