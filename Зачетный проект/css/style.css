@@ -33,19 +33,15 @@ html {
 .header-logo-namesite {
     display: flex;
     align-items: center;
-    /float: left;
 }
 
 .header-logo {
-    /display: inline-block;
     width: 64px;
     height: 56px;
     background-image: url(../img/logo.png);
-    /float: left;
 }
 
 .header-name-site {
-    /display: inline-block;
     text-decoration: none;
     font-family: Raleway;
     font-size: 34px;
@@ -53,12 +49,6 @@ html {
     font-weight: 300;
     letter-spacing: -0.04em;
     color: #ffffff;
-    /margin: 10px 0 0 0;
-}
-
-.wrp-list-backet-search {
-    /float: right;
-
 }
 
 .header-list {
@@ -69,15 +59,7 @@ html {
     justify-content: space-between;
 }
 
-.header-list-item {
-    /display: inline-block;
-    /float: left;
-    /display: inline-flex;
-    /padding: 23px 26px 0 0;
-}
-
 .header-list-item-link {
-    /display: inline-block;
     font-family: Montserrat;
     font-size: 14px;
     line-height: 1.2;
@@ -99,11 +81,13 @@ html {
     width: 18px;
     height: 24px;
     background-image: url(../img/backet.png);
-    /margin: -5px 0 0 35px;
+}
+
+.header-basket:hover {
+    
 }
 
 form {
-    display: block;
     position: relative;
 }
 
@@ -141,15 +125,13 @@ form {
     position: absolute;
     top: -12px;
     background-image: url(../img/search.png);
-    background-repeat: no-repeat;
 }
 
 
 /*слайдер -------------------------------------------*/
 
 .header-slider {
-    min-height: 261px;
-    margin: 335px 150px 0;
+    margin: 285px 150px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
