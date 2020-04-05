@@ -37,7 +37,7 @@ html {
 }
 
 .header-logo {
-    display: inline-block;
+    /display: inline-block;
     width: 64px;
     height: 56px;
     background-image: url(../img/logo.png);
@@ -45,7 +45,7 @@ html {
 }
 
 .header-name-site {
-    display: inline-block;
+    /display: inline-block;
     text-decoration: none;
     font-family: Raleway;
     font-size: 34px;
@@ -58,19 +58,26 @@ html {
 
 .wrp-list-backet-search {
     /float: right;
+
 }
 
 .header-list {
+    width: 780px;
     list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .header-list-item {
-    float: left;
-    padding: 23px 26px 0 0;
+    /display: inline-block;
+    /float: left;
+    /display: inline-flex;
+    /padding: 23px 26px 0 0;
 }
 
-.header-list-item-list-link {
-    display: inline-block;
+.header-list-item-link {
+    /display: inline-block;
     font-family: Montserrat;
     font-size: 14px;
     line-height: 1.2;
@@ -79,7 +86,7 @@ html {
     text-decoration: none;
 }
 
-.header-list-item-list-link:hover {
+.header-list-item-link:hover {
     font-family: Montserrat;
     font-size: 14px;
     line-height: 1.2;
@@ -92,10 +99,11 @@ html {
     width: 18px;
     height: 24px;
     background-image: url(../img/backet.png);
-    margin: -5px 0 0 35px;
+    /margin: -5px 0 0 35px;
 }
 
 form {
+    display: block;
     position: relative;
 }
 
@@ -113,7 +121,7 @@ form {
     transition: .4s cubic-bezier(0, 0.8, 0, 1);
     border-bottom: 1px solid transparent;
     position: absolute;
-    top: -4px;
+    top: -12px;
     z-index: 2;
 }
 
@@ -131,7 +139,7 @@ form {
     height: 24px;
     width: 24px;
     position: absolute;
-    top: -4px;
+    top: -12px;
     background-image: url(../img/search.png);
     background-repeat: no-repeat;
 }
