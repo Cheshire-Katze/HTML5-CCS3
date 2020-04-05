@@ -1,4 +1,4 @@
-/*general ------------------------------------------*/
+/*general -------------------------------*/
 
 * {
     margin: 0;
@@ -22,7 +22,7 @@ html {
 }
 
 
-/*header ---------------------------------------------*/
+/*header -------------------------------*/
 
 .header-wrp-logo-list {
     display: flex;
@@ -83,9 +83,7 @@ html {
     background-image: url(../img/backet.png);
 }
 
-.header-basket:hover {
-    
-}
+.header-basket:hover {}
 
 form {
     position: relative;
@@ -128,7 +126,7 @@ form {
 }
 
 
-/*слайдер -------------------------------------------*/
+/*слайдер --------------------------------*/
 
 .header-slider {
     margin: 285px 150px 0;
@@ -228,7 +226,7 @@ form {
 }
 
 
-/*pagination ------------------------------------------*/
+/*pagination -----------------------------*/
 
 .header-padination-radio-btn {
     display: none;
@@ -262,7 +260,7 @@ form {
 }
 
 
-/*Блок 2. Ссылки куда-то... -----------------*/
+/*Блок 2. Ссылки куда-то... --------------*/
 
 .links-to {
     display: flex;
@@ -420,6 +418,7 @@ form {
     left: 230px;
 }
 
+
 /*блок 4. meta ------------------------*/
 
 .product-meta {
@@ -429,6 +428,7 @@ form {
     background-image: linear-gradient(90.0deg, #211b19 0%, #4e3427 100%);
     padding: 48px 375px;
 }
+
 .product-meta-h2 {
     font-family: Raleway;
     font-size: 28px;
@@ -437,6 +437,7 @@ form {
     color: #c7b299;
     margin: 0 0 8px 0;
 }
+
 .product-meta-p {
     font-family: Montserrat;
     font-size: 18px;
@@ -444,6 +445,7 @@ form {
     font-weight: 300;
     color: #615855;
 }
+
 .product-meta-a {
     display: inline-block;
     font-family: Raleway;
@@ -462,6 +464,7 @@ form {
     background-color: #fff;
     color: #998675;
 }
+
 
 /*блок 5. our projects -----------------*/
 
@@ -518,49 +521,4 @@ form {
     color: #ffffff;
 }
 
-.our-projects-img-wrp {
-    вапыа
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.our-projects-img-wrp {}
