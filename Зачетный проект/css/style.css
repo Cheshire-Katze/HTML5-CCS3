@@ -25,23 +25,23 @@ html {
 /*header ---------------------------------------------*/
 
 .header-wrp-logo-list {
+    display: flex;
+    justify-content: space-between;
     padding: 40px 375px 0;
 }
 
 .header-logo-namesite {
-    float: left;
+    display: flex;
+    align-items: center;
 }
 
 .header-logo {
-    display: inline-block;
     width: 64px;
     height: 56px;
     background-image: url(../img/logo.png);
-    float: left;
 }
 
 .header-name-site {
-    display: inline-block;
     text-decoration: none;
     font-family: Raleway;
     font-size: 34px;
@@ -49,24 +49,17 @@ html {
     font-weight: 300;
     letter-spacing: -0.04em;
     color: #ffffff;
-    margin: 10px 0 0 0;
-}
-
-.wrp-list-backet-search {
-    float: right;
 }
 
 .header-list {
+    width: 780px;
     list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.header-list-item {
-    float: left;
-    padding: 23px 26px 0 0;
-}
-
-.header-list-item-list-link {
-    display: inline-block;
+.header-list-item-link {
     font-family: Montserrat;
     font-size: 14px;
     line-height: 1.2;
@@ -75,7 +68,7 @@ html {
     text-decoration: none;
 }
 
-.header-list-item-list-link:hover {
+.header-list-item-link:hover {
     font-family: Montserrat;
     font-size: 14px;
     line-height: 1.2;
@@ -88,7 +81,10 @@ html {
     width: 18px;
     height: 24px;
     background-image: url(../img/backet.png);
-    margin: -5px 0 0 35px;
+}
+
+.header-basket:hover {
+    
 }
 
 form {
@@ -109,7 +105,7 @@ form {
     transition: .4s cubic-bezier(0, 0.8, 0, 1);
     border-bottom: 1px solid transparent;
     position: absolute;
-    top: -4px;
+    top: -12px;
     z-index: 2;
 }
 
@@ -127,17 +123,15 @@ form {
     height: 24px;
     width: 24px;
     position: absolute;
-    top: -4px;
+    top: -12px;
     background-image: url(../img/search.png);
-    background-repeat: no-repeat;
 }
 
 
 /*слайдер -------------------------------------------*/
 
 .header-slider {
-    min-height: 261px;
-    margin: 335px 150px 0;
+    margin: 285px 150px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
