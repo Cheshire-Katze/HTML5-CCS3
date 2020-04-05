@@ -399,7 +399,7 @@ form {
 .product-img {
     width: 770px;
     height: 400px;
-    background-image: url(../img/product-2.png);
+    background-image: url(../img/product-1.png);
 }
 
 .product-img:before {
@@ -407,7 +407,7 @@ form {
     position: absolute;
     width: 770px;
     height: 400px;
-    background-image: url(../img/product.png);
+    background-image: url(../img/product-2.png);
     left: 460px;
 }
 
@@ -462,6 +462,65 @@ form {
     background-color: #fff;
     color: #998675;
 }
+
+/*блок 5. our projects -----------------*/
+
+.our-projects {
+    padding: 80px 375px;
+    text-align: center;
+}
+
+.our-projects-h2 {
+    font-family: Raleway;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #555555;
+}
+
+.our-projects-p {
+    display: inline-block;
+    width: 785px;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #8c8c8c;
+    margin: 20px 0 40px;
+}
+
+.our-projects-list {
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 0 0 40px 0;
+}
+
+.our-projects-list-item-link {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #8c8c8c;
+    border: 1.0px solid #ebebeb;
+    border-radius: 3.0px;
+    padding: 9px 20px;
+    margin: 0 10px 0 0;
+}
+
+.margin-right-zero {
+    margin-right: 0;
+}
+
+.our-projects-list-item-link:hover {
+    background-color: #998675;
+    color: #ffffff;
+}
+
+
+
+
 
 
 
