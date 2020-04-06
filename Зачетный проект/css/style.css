@@ -111,31 +111,33 @@ form {
     transition: .4s cubic-bezier(0, 0.8, 0, 1);
     border-bottom: 1px solid transparent;
     position: absolute;
-    top: -16px;
+    top: -15px;
     z-index: 1;
-}
-
-.header-search:focus {
-    cursor: text;
-    width: 150px;
-    z-index: 2;
-    border-bottom: 1px solid #fff;
-    margin-left: 25px;
 }
 
 .header-search-btn {
     background: transparent;
     border: none;
     outline: none;
-    width: 28px;
-    height: 27px;
+    width: 27px;
+    height: 28px;
     position: absolute;
-    top: -16px;
+    top: -15px;
 }
 
-.header-search-btn:hover .header-search-btn-icon {
+.header-search:focus {
+    cursor: text;
+    width: 150px;
+    border-bottom: 1px solid #fff;
+    margin-left: 25px;
+}
+
+
+/*
+.header-search-btn:hover .header-search-svg {
     fill: #c7b299;
 }
+*/
 
 
 /*слайдер --------------------------------*/
@@ -449,6 +451,11 @@ form {
     color: #998675;
 }
 
+.product-meta-a:active {
+    background-color: #998675;
+    color: #fff;
+}
+
 
 /*блок 5. our projects -----------------*/
 
@@ -463,6 +470,7 @@ form {
     line-height: 1.2;
     font-weight: 600;
     color: #555555;
+    /background-image: url(../img/project_1.png);
 }
 
 .our-projects-p {
@@ -505,4 +513,61 @@ form {
     color: #ffffff;
 }
 
+.our-projects-list-item-link:active {
+    background-color: #fff;
+    color: #998675;
+}
+
 .our-projects-img-wrp {}
+
+
+
+
+
+
+
+
+.our-project-img1 {
+    background-color: rgba(17,17,17,0.7);
+}
+
+.our-project-img2 {
+    filter: brightness(250%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
