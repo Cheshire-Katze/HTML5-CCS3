@@ -33,22 +33,28 @@ html {
 .header-logo-namesite {
     display: flex;
     align-items: center;
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .header-logo {
-    width: 64px;
-    height: 56px;
-    background-image: url(../img/logo.png);
+    fill: currentColor;
+}
+
+.header-logo-namesite:hover {
+    color: #c7b299;
+}
+
+.header-logo-namesite:active {
+    color: #fff;
 }
 
 .header-name-site {
-    text-decoration: none;
     font-family: Raleway;
     font-size: 34px;
     line-height: 1.2;
     font-weight: 300;
     letter-spacing: -0.04em;
-    color: #ffffff;
 }
 
 .header-list {
@@ -69,21 +75,20 @@ html {
 }
 
 .header-list-item-link:hover {
-    font-family: Montserrat;
-    font-size: 14px;
-    line-height: 1.2;
-    font-weight: 300;
     color: #c7b299;
 }
 
-.header-basket {
-    display: block;
-    width: 18px;
-    height: 24px;
-    background-image: url(../img/backet.png);
+.header-list-item-link:active {
+    color: #fff;
 }
 
-.header-basket:hover {}
+.header-basket-link:hover .header-basket {
+    fill: #c7b299;
+}
+
+.header-basket-link:active .header-basket {
+    fill: #fff;
+}
 
 form {
     position: relative;
@@ -94,8 +99,8 @@ form {
     font-size: 15px;
     font-family: Montserrat;
     cursor: pointer;
-    width: 24px;
-    height: 24px;
+    width: 27px;
+    height: 28px;
     text-indent: 0;
     outline: none;
     border: none;
@@ -103,14 +108,14 @@ form {
     transition: .4s cubic-bezier(0, 0.8, 0, 1);
     border-bottom: 1px solid transparent;
     position: absolute;
-    top: -12px;
-    z-index: 2;
+    top: -16px;
+    z-index: 1;
 }
 
 .header-search:focus {
     cursor: text;
     width: 150px;
-    z-index: 1;
+    z-index: 2;
     border-bottom: 1px solid #fff;
     margin-left: 25px;
 }
@@ -118,11 +123,15 @@ form {
 .header-search-btn {
     background: transparent;
     border: none;
-    height: 24px;
-    width: 24px;
+    outline: none;
+    width: 28px;
+    height: 27px;
     position: absolute;
-    top: -12px;
-    background-image: url(../img/search.png);
+    top: -16px;
+}
+
+.header-search-btn:hover .header-search-btn-icon {
+    fill: #c7b299;
 }
 
 
@@ -136,21 +145,19 @@ form {
 }
 
 .header-slider-left-button {
-    width: 40px;
-    height: 73px;
-    background-image: url(../img/slider-left.png);
     border: none;
     outline: none;
     background-color: transparent;
     opacity: 0.5;
+    cursor: pointer;
 }
 
-.header-slider-left-button:hover {
-    background-image: url(../img/slider-left-hover.png);
+.header-slider-left-button:hover .header-slider-left-button-svg {
+    fill: #d3c1ad;
 }
 
-.header-slider-left-button:active {
-    background-image: url(../img/slider-left.png);
+.header-slider-left-button:active .header-slider-left-button-svg {
+    fill: #fff;
 }
 
 .header-slider-text-wrp {
@@ -207,6 +214,27 @@ form {
     color: #998675;
 }
 
+.header-slider-link:active {
+    background-color: #998675;
+    color: #ffffff;
+}
+
+.header-slider-right-button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.header-slider-right-button:hover .header-slider-right-button-svg {
+    fill: #d3c1ad;
+}
+
+.header-slider-right-button:active .header-slider-right-button-svg {
+    fill: #fff;
+}
+/*
 .header-slider-right-button {
     width: 40px;
     height: 73px;
@@ -224,6 +252,7 @@ form {
 .header-slider-right-button:active {
     background-image: url(../img/slider-right.png);
 }
+*/
 
 
 /*pagination -----------------------------*/
