@@ -1,5 +1,7 @@
 /*general -------------------------------*/
 
+/*~*/
+
 * {
     margin: 0;
     padding: 0;
@@ -234,25 +236,6 @@ form {
 .header-slider-right-button:active .header-slider-right-button-svg {
     fill: #fff;
 }
-/*
-.header-slider-right-button {
-    width: 40px;
-    height: 73px;
-    background-image: url(../img/slider-right.png);
-    border: none;
-    outline: none;
-    background-color: transparent;
-    opacity: 0.5;
-}
-
-.header-slider-right-button:hover {
-    background-image: url(../img/slider-right-hover.png);
-}
-
-.header-slider-right-button:active {
-    background-image: url(../img/slider-right.png);
-}
-*/
 
 
 /*pagination -----------------------------*/
@@ -301,9 +284,20 @@ form {
     display: inline-block;
     text-align: center;
     text-decoration: none;
+    position: relative;
 }
 
-.link-to:hover .line {
+.link-to:before {
+    content: "";
+    width: 70px;
+    height: 3px;
+    background-color: #f1eee9;
+    position: absolute;
+    top: 224px;
+    right: 111px;
+}
+
+.link-to:hover:before {
     background-color: #c7b299;
 }
 
@@ -374,14 +368,6 @@ form {
     line-height: 24px;
     font-weight: 300;
     color: #8c8c8c;
-}
-
-.line {
-    display: inline-block;
-    width: 70px;
-    height: 3px;
-    background-color: #f1eee9;
-    margin-top: 30px;
 }
 
 
