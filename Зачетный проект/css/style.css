@@ -1,5 +1,6 @@
 /*general -------------------------------*/
 
+
 /*~*/
 
 * {
@@ -301,56 +302,16 @@ form {
     background-color: #c7b299;
 }
 
-.link-to:hover .link-to-h3 {
-    color: #c7b299;
+.link-to:active:before {
+    background-color: #f1eee9;
 }
 
-.link-to:hover .draw-image-wrp {
-    background-image: url(../img/draw-2.png);
+.link-to:hover .link-to-svg {
+    fill: #c7b299;
 }
 
-.link-to:hover .development-image-wrp {
-    background-image: url(../img/development-2.png);
-}
-
-.link-to:hover .customization-image-wrp {
-    background-image: url(../img/customization-2.png);
-}
-
-.link-to:hover .marketing-image-wrp {
-    background-image: url(../img/marketing-2.png);
-}
-
-.draw-image-wrp {
-    display: inline-block;
-    width: 49px;
-    height: 44px;
-    background-image: url(../img/draw.png);
-    background-repeat: no-repeat;
-}
-
-.development-image-wrp {
-    display: inline-block;
-    width: 44px;
-    height: 44px;
-    background-image: url(../img/development.png);
-    background-repeat: no-repeat;
-}
-
-.customization-image-wrp {
-    display: inline-block;
-    width: 44px;
-    height: 44px;
-    background-image: url(../img/customization.png);
-    background-repeat: no-repeat;
-}
-
-.marketing-image-wrp {
-    display: inline-block;
-    width: 52px;
-    height: 44px;
-    background-image: url(../img/marketing.png);
-    background-repeat: no-repeat;
+.link-to:active .link-to-svg {
+    fill: #555555;
 }
 
 .link-to-h3 {
@@ -360,6 +321,14 @@ form {
     font-weight: 600;
     color: #555555;
     margin: 29px 0 19px;
+}
+
+.link-to:hover .link-to-h3 {
+    color: #c7b299;
+}
+
+.link-to:active .link-to-h3 {
+    color: #555555;
 }
 
 .link-to-p {
