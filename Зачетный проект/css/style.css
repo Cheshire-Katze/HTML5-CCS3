@@ -260,6 +260,7 @@ html {
     transform: scale(1.4);
 }
 
+
 /*Блок 2. Ссылки куда-то... --------------*/
 
 .links-to {
@@ -357,18 +358,15 @@ html {
     margin: 24px 0 40px;
 }
 
-.product-img-wrp {
+.product-img {
     display: flex;
     align-items: flex-end;
     width: 1230px;
     height: 482px;
     position: relative;
-}
-
-.product-img {
-    width: 770px;
-    height: 400px;
     background-image: url(../img/product-1.png);
+    background-repeat: no-repeat;
+    background-position: 0px 82px;
 }
 
 .product-img:before {
@@ -380,13 +378,14 @@ html {
     left: 460px;
 }
 
-.product-img-wrp:after {
+.product-img:after {
     content: "";
     position: absolute;
     width: 770px;
     height: 482px;
     background-image: url(../img/product-3.png);
     left: 230px;
+    top: 0;
 }
 
 
@@ -450,12 +449,12 @@ html {
 }
 
 .our-projects-h2 {
+    /display: block;
     font-family: Raleway;
     font-size: 30px;
     line-height: 1.2;
     font-weight: 600;
     color: #555555;
-    /background-image: url(../img/project_1.png);
 }
 
 .our-projects-p {
@@ -470,41 +469,93 @@ html {
 }
 
 .our-projects-list {
-    list-style: none;
-    display: inline-flex;
-    justify-content: space-between;
     margin: 0 0 40px 0;
 }
 
-.our-projects-list-item-link {
-    text-decoration: none;
+.our-projects-list-btn {
+    padding: 9px 20px;
+    margin: 0 10px 0 0;
+    border: 1px solid #ebebeb;
+    border-radius: 3.0px;
+    outline: none;
     font-family: Montserrat;
     font-size: 14px;
     line-height: 21px;
-    font-weight: 400;
+    font-weight: 300;
     color: #8c8c8c;
-    border: 1.0px solid #ebebeb;
-    border-radius: 3.0px;
-    padding: 9px 20px;
-    margin: 0 10px 0 0;
+    background-color: #fff;
+    cursor: pointer;
 }
 
 .margin-right-zero {
     margin-right: 0;
 }
 
-.our-projects-list-item-link:hover {
+.our-projects-list-btn:hover {
     background-color: #998675;
     color: #ffffff;
 }
 
-.our-projects-list-item-link:active {
+.our-projects-list-btn:active {
     background-color: #fff;
     color: #998675;
 }
 
 .our-projects-img-wrp {}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 .our-project-img1 {
     background-color: rgba(17, 17, 17, 0.7);
 }
@@ -512,3 +563,4 @@ html {
 .our-project-img2 {
     filter: brightness(250%);
 }
+*/
