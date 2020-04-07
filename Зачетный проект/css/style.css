@@ -30,6 +30,7 @@ html {
 .header-wrp-logo-list {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 40px 375px 0;
 }
 
@@ -236,37 +237,28 @@ html {
 
 /*pagination -----------------------------*/
 
-.header-padination-radio-btn {
-    display: none;
+.pagination {
+    width: 98px;
+    display: flex;
+    justify-content: space-between;
+    margin: 330px 0 0 917px;
 }
 
-.header-padination-radio-label {
-    cursor: pointer;
-    position: relative;
-    margin: 0 12px;
-}
-
-.header-padination-radio-label:before {
-    position: absolute;
-    content: "";
-    width: 11px;
-    height: 11px;
+.pagination-link {
+    display: block;
+    width: 9px;
+    height: 9px;
     border-radius: 50%;
     opacity: 0.5;
     background-color: #ffffff;
-    left: 904px;
-    top: 330px;
+    border: 2px solid transparent;
 }
 
-.header-padination-radio-btn:checked + .header-padination-radio-label:before {
-    width: 15px;
-    height: 15px;
-    border: 2.0px solid #d3c1ad;
+.pagination-link:hover {
     background-color: transparent;
-    left: 900px;
-    top: 326px;
+    border: 2px solid #d3c1ad;
+    transform: scale(1.4);
 }
-
 
 /*Блок 2. Ссылки куда-то... --------------*/
 
