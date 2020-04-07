@@ -93,51 +93,44 @@ html {
     fill: #fff;
 }
 
-form {
+
+/*search --------------------------------*/
+
+.header-search-form {
+    width: 27px;
+    height: 28px;
     position: relative;
 }
 
-.header-search {
+.header-search-label:hover .header-search-svg {
+    fill: #c7b299;
+}
+
+.header-search-label:active .header-search-svg {
+    fill: #fff;
+}
+
+.header-search-input {
+    position: absolute;
+    width: 0;
+    min-height: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    background-color: transparent;
     color: #fff;
     font-size: 15px;
     font-family: Montserrat;
-    cursor: pointer;
-    width: 27px;
-    height: 28px;
-    text-indent: 0;
-    outline: none;
-    border: none;
-    background: transparent;
-    transition: .4s cubic-bezier(0, 0.8, 0, 1);
-    border-bottom: 1px solid transparent;
-    position: absolute;
-    top: -15px;
-    z-index: 1;
+    top: 28px;
+    right: 0;
 }
 
-.header-search-btn {
-    background: transparent;
-    border: none;
-    outline: none;
-    width: 27px;
-    height: 28px;
-    position: absolute;
-    top: -15px;
-}
-
-.header-search:focus {
-    cursor: text;
-    width: 150px;
+.header-search-input:focus {
+    width: 167px;
+    min-height: 15px;
+    transition: width 1s ease;
     border-bottom: 1px solid #fff;
-    margin-left: 25px;
 }
-
-
-/*
-.header-search-btn:hover .header-search-svg {
-    fill: #c7b299;
-}
-*/
 
 
 /*слайдер --------------------------------*/
@@ -520,54 +513,10 @@ form {
 
 .our-projects-img-wrp {}
 
-
-
-
-
-
-
-
 .our-project-img1 {
-    background-color: rgba(17,17,17,0.7);
+    background-color: rgba(17, 17, 17, 0.7);
 }
 
 .our-project-img2 {
     filter: brightness(250%);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
