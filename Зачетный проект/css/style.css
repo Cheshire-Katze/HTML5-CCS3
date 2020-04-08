@@ -501,12 +501,6 @@ html {
     color: #998675;
 }
 
-
-
-
-
-
-
 .our-projects-carts-wrp {
     height: 704px;
     display: flex;
@@ -514,6 +508,10 @@ html {
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between;
+}
+
+.our-project-img_text {
+    position: relative;
 }
 
 .our-project-img_text:hover .our-project-img {
@@ -528,7 +526,6 @@ html {
     border-bottom: 10px solid #362f2d;
 }
 
-
 .our-project-img {
     display: block;
 }
@@ -540,12 +537,12 @@ html {
 }
 
 .our-projects-cart-text-wrp:before {
-  content: "";
-  border: 15px solid transparent;	
-  border-bottom: 10px solid #fbfaf8;
-  position: absolute;
-  top: -25px;
-  left: 19px;
+    content: "";
+    border: 15px solid transparent;
+    border-bottom: 10px solid #fbfaf8;
+    position: absolute;
+    top: -25px;
+    left: 19px;
 }
 
 .our-project-h3 {
@@ -555,7 +552,6 @@ html {
     font-weight: 500;
     color: #c7b299;
     padding: 30px 0 14px 28px;
-    
 }
 
 .our-project-p {
@@ -578,7 +574,7 @@ html {
     text-transform: uppercase;
     color: #ffffff;
     padding: 18px 44px;
-    margin: 40px 0 0 500px; 
+    margin: 40px 0 0 500px;
     cursor: pointer;
 }
 
@@ -594,21 +590,21 @@ html {
 .our-project-btn-search {
     width: 28px;
     height: 28px;
-    /display: none;
+    display: none;
     position: absolute;
-    /background-color: transparent;
+    background-color: transparent;
     border: none;
     outline: none;
 }
 
 .our-project-btn-link {
-    top: 2685px;
-    left: 510px
+    top: 110px;
+    left: 130px
 }
 
 .our-project-btn-search {
-    top: 2685px;
-    left: 580px
+    top: 110px;
+    left: 200px
 }
 
 .our-project-img_text:hover .our-project-btn-link {
@@ -617,4 +613,20 @@ html {
 
 .our-project-img_text:hover .our-project-btn-search {
     display: block;
+}
+
+.our-project-btn-search:hover .our-project-btn-search-svg {
+    fill: #c7b299;
+}
+
+.our-project-btn-link:hover .our-project-btn-link-svg {
+    fill: #c7b299;
+}
+
+.our-project-btn-search:active .our-project-btn-search-svg {
+    fill: #fff;
+}
+
+.our-project-btn-link:active .our-project-btn-link-svg {
+    fill: #fff;
 }
