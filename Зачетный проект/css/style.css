@@ -101,6 +101,11 @@ html {
     width: 27px;
     height: 28px;
     position: relative;
+    
+}
+
+.header-search-label {
+    cursor: pointer;
 }
 
 .header-search-label:hover .header-search-svg {
@@ -575,6 +580,8 @@ html {
     color: #ffffff;
     padding: 18px 44px;
     margin: 40px 0 0 500px;
+    border: none;
+    outline: none;
     cursor: pointer;
 }
 
@@ -635,79 +642,59 @@ html {
 /*video-presentation ---------------------*/
 
 .video-presentation {
-    /min-height: 705px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 705px;
     background-image: url(../img/bg_photo_video_presentation.png);
-    padding: 210px 684px 207px;
+    background-repeat: no-repeat;
 }
 
-.video-presentation-wrp {
-}
 .video {
+    display: none;
 }
+
 .video-presentation-btn {
-    opacity: 0.2;
-    background-color: #000000;
+    width: 100px;
+    height: 100px;
+    /opacity: 0.2;
+    background-color: transparent;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    position: relative;
 }
+
+.video-presentation-btn-svg {}
+
 .video-presentation-h2 {
+    font-family: Raleway;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 20px 0 0 0;
 }
+
 .video-presentation-p {
+    width: 565px;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    margin: 24px 0 35px;
 }
+
 .video-presentation-timer {
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #c7b299;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*mobile_devices -------------------------*/
@@ -724,7 +711,7 @@ html {
     margin: 0px 0 0 30px;
 }
 
-.mobile-devices-text-span {
+.mobile-devices-text-h3 {
     font-family: Raleway;
     font-size: 30px;
     line-height: 1.2;
