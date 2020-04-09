@@ -491,10 +491,6 @@ html {
     cursor: pointer;
 }
 
-.margin-right-zero {
-    margin-right: 0;
-}
-
 .our-projects-list-btn:hover {
     background-color: #998675;
     color: #ffffff;
@@ -809,5 +805,198 @@ html {
 /*recent-posts ---------------------------*/
 
 .recent-posts {
-    height: 500px;
+    padding: 81px 375px;
+    text-align: center;
+}
+
+.recent-posts-h2 {
+    font-family: Raleway;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #555555;
+}
+
+.recent-posts-p {
+    display: inline-block;
+    width: 770px;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #8c8c8c;
+    margin: 25px 0 35px;
+}
+
+.recent-posts-carts-wrp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recent-posts-cart-wrp {
+    width: 370px;
+    border: 1.0px solid #f8f8f8;
+}
+
+.recent-posts-cart-wrp:hover {
+    background-color: #362f2d;
+}
+
+.recent-posts-cart-wrp:hover .recent-posts-cart-img {
+    filter: brightness(50%);
+}
+
+.recent-posts-cart-wrp:hover .recent-posts-cart-name {
+    color: #c7b299;
+}
+
+.recent-posts-cart-wrp:hover .recent-posts-cart-text {
+    color: #ffffff;
+}
+
+.recent-posts-cart-wrp:hover .recent-posts-cart-data-number {
+    background-color: #c7b299;
+}
+
+.recent-posts-cart-wrp:hover .recent-posts-cart-data-month {
+    background-color: #a48d72;
+}
+
+#img-left {
+    height: 200px;
+    background-image: url(../img/recent_posts_cart1.png);
+    background-repeat: no-repeat;
+    padding: 20px 0 0 20px;
+}
+
+#img-center {
+    height: 200px;
+    background-image: url(../img/recent_posts_cart2.png);
+    background-repeat: no-repeat;
+    padding: 20px 0 0 20px;
+}
+
+#img-right {
+    min-height: 200px;
+    background-image: url(../img/recent_posts_cart3.png);
+    background-repeat: no-repeat;
+    padding: 20px 0 0 20px;
+}
+
+.recent-posts-cart-data-number {
+    display: block;
+    width: 50px;
+    background-color: #363636;
+    border-radius: 3.0px 3.0px 0.0px 0.0px;
+    font-family: Montserrat;
+    font-size: 24px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #ffffff;
+    padding: 7px 0;
+}
+
+.recent-posts-cart-data-month {
+    display: block;
+    width: 50px;
+    background-color: #252525;
+    border-radius: 0.0px 0.0px 3.0px 3.0px;
+    font-family: Raleway;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 5px 0;
+}
+
+.recent-posts-cart-name {
+    display: block;
+    text-align: start;
+    font-family: Raleway;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #555555;
+    margin: 25px 0 0 25px;
+}
+
+.recent-posts-cart-text {
+    display: block;
+    text-align: start;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #8c8c8c;
+    margin: 15px 0 20px 25px;
+}
+
+.recent-posts-cart-link {
+    width: 100px;
+    display: block;
+    text-align: start;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #c7b299;
+    text-decoration: none;
+    margin: 0 0 30px 25px;
+    position: relative;
+}
+
+.recent-posts-cart-link:before {
+    position: absolute;
+    content: "";
+    border: 5px solid transparent;
+    border-left: 8px solid #c7b299;
+    top: 6px;
+    left: 83px;
+}
+
+.recent-posts-cart-link:hover {
+    color: #d1d1d1;
+}
+
+.recent-posts-cart-link:hover:before {
+    border-left: 8px solid #d1d1d1;
+}
+
+.recent-posts-cart-link:active {
+    color: #c7b299;
+}
+
+.recent-posts-cart-link:active:before {
+    border-left: 8px solid #c7b299;
+}
+
+.recent-posts-pagination-left-link,
+.recent-posts-pagination-right-link {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: 40px 8px 0 0;
+}
+
+.recent-posts-pagination-left-link:hover .recent-posts-pagination-link-left-svg {
+    fill: #c7b299;
+}
+
+.recent-posts-pagination-right-link:hover .recent-posts-pagination-link-right-svg {
+    fill: #c7b299;
+}
+
+.recent-posts-pagination-left-link:active .recent-posts-pagination-link-left-svg {
+    fill: #d1d1d1;
+}
+
+.recent-posts-pagination-right-link:active .recent-posts-pagination-link-right-svg {
+    fill: #d1d1d1;
+}
+
+
+/*Обнуление правого margin ----------------*/
+
+.margin-right-zero {
+    margin-right: 0;
 }
