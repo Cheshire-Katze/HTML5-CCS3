@@ -546,7 +546,8 @@ html {
     border: 15px solid transparent;
     border-bottom: 10px solid #fbfaf8;
     position: absolute;
-    top: -25px;
+    top: -24px;
+/*  В FireFox треугольник был выше своей позиции, уменьшил на 1px top для корректного отображения в нем  */
     left: 19px;
 }
 
@@ -666,7 +667,13 @@ html {
     position: relative;
 }
 
-.video-presentation-btn-svg {}
+.video-presentation-btn:hover .video-presentation-btn-svg {
+    fill: #c7b299;
+}
+
+.video-presentation-btn:active .video-presentation-btn-svg {
+    fill: #fff;
+}
 
 .video-presentation-h2 {
     font-family: Raleway;
@@ -770,9 +777,8 @@ html {
     position: relative;
 }
 
-.statistic-text {}
-
-.statistic-text-p {
+.statistic-text-digit {
+    display: block;
     font-family: Montserrat;
     font-size: 48px;
     line-height: 36px;
