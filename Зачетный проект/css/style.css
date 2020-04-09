@@ -101,7 +101,6 @@ html {
     width: 27px;
     height: 28px;
     position: relative;
-    
 }
 
 .header-search-label {
@@ -547,7 +546,7 @@ html {
     border-bottom: 10px solid #fbfaf8;
     position: absolute;
     top: -24px;
-/*  В FireFox треугольник был выше своей позиции, уменьшил на 1px top для корректного отображения в нем  */
+    /*  В FireFox треугольник был выше своей позиции, уменьшил на 1px top для корректного отображения в нем  */
     left: 19px;
 }
 
@@ -650,6 +649,7 @@ html {
     min-height: 705px;
     background-image: url(../img/bg_photo_video_presentation.png);
     background-repeat: no-repeat;
+    position: relative;
 }
 
 .video {
@@ -657,14 +657,13 @@ html {
 }
 
 .video-presentation-btn {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 76px;
     /opacity: 0.2;
     background-color: transparent;
     border-radius: 50%;
     border: none;
     outline: none;
-    position: relative;
 }
 
 .video-presentation-btn:hover .video-presentation-btn-svg {
@@ -681,7 +680,7 @@ html {
     line-height: 1.2;
     font-weight: 500;
     color: #ffffff;
-    margin: 20px 0 0 0;
+    margin: 30px 0 0 0;
 }
 
 .video-presentation-p {
