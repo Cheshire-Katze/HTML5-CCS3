@@ -1066,6 +1066,16 @@ html {
     fill: #d1d1d1;
 }
 
+/*footer ----------------------------------*/
+
+.footer-clients {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 140px 405px;
+    background-image: url(../img/footer_clients_bg_photo.png);
+}
+
 
 /*Обнуление правого margin ----------------*/
 
