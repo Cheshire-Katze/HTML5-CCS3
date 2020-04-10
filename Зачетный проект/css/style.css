@@ -125,7 +125,7 @@ html {
     color: #ffffff;
 }
 
-.header-logo {
+.header-logo-svg {
     fill: currentColor;
 }
 
@@ -1022,7 +1022,7 @@ html {
     content: "";
     border: 5px solid transparent;
     border-left: 8px solid #c7b299;
-    top: 6px;
+    top: 5px;
     left: 83px;
 }
 
@@ -1075,6 +1075,134 @@ html {
     padding: 140px 405px;
     background-image: url(../img/footer_clients_bg_photo.png);
 }
+
+.footer-about-us {
+    background-color: #191919;
+    padding: 80px 375px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-about-us-oursite {
+    width: 280px;
+}
+.footer-about-us-logo-namesite {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.footer-about-us-logo-namesite:hover {
+    color: #c7b299;
+}
+
+.footer-about-us-logo-namesite:active {
+    color: #fff;
+}
+
+.footer-about-us-logo-svg {
+    fill: currentColor;
+}
+
+.footer-about-us-namesite {
+    font-family: Raleway;
+    font-size: 34px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: -0.04em;
+}
+
+.footer-about-us-oursite-text {
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #555555;
+    padding: 25px 0 30px 0;
+}
+
+.footer-about-us-oursite-link {
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #d1d1d1;
+    text-decoration: none;
+    position: relative;
+}
+
+.footer-about-us-oursite-link:before {
+    position: absolute;
+    content: "";
+    border: 5px solid transparent;
+    border-left: 8px solid #d1d1d1;
+    top: 2px;
+    left: 90px;
+}
+
+.footer-about-us-oursite-link:hover {
+    color: #c7b299;
+}
+
+.footer-about-us-oursite-link:hover:before {
+    border-left: 8px solid #c7b299;
+}
+
+.footer-about-us-oursite-link:active {
+    color: #d1d1d1;
+}
+
+.footer-about-us-oursite-link:active:before {
+    border-left: 8px solid #d1d1d1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*Обнуление правого margin ----------------*/
