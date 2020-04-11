@@ -737,13 +737,13 @@ html {
 
 
 .video-play {
- position: relative; 
+ /position: relative; 
 }
 
 .video-presentation-btn {
   width: 200px;
   height: 200px;
-  position: absolute;
+  /position: absolute;
   top: 20%;
   left: 400px;
 }
