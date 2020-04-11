@@ -732,10 +732,49 @@ html {
     position: relative;
 }
 
-.video {
-    display: none;
+
+
+
+
+.video-play {
+ position: relative; 
 }
 
+.video-presentation-btn {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 20%;
+  left: 400px;
+}
+
+.video-presentation-btn--hide {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.video-play {
+    display: none;
+}
+*/
+
+/*
 .video-presentation-btn {
     width: 80px;
     height: 76px;
@@ -745,6 +784,7 @@ html {
     border: none;
     outline: none;
 }
+*/
 
 .video-presentation-btn:hover .video-presentation-btn-svg {
     fill: #c7b299;
