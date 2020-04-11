@@ -1004,7 +1004,7 @@ html {
 }
 
 .recent-posts-cart-link {
-    width: 100px;
+    width: 90px;
     display: block;
     text-align: start;
     font-family: Montserrat;
@@ -1015,6 +1015,7 @@ html {
     text-decoration: none;
     margin: 0 0 30px 25px;
     position: relative;
+    /*    */
 }
 
 .recent-posts-cart-link:before {
@@ -1066,15 +1067,19 @@ html {
     fill: #d1d1d1;
 }
 
+
 /*footer ----------------------------------*/
 
 .footer-clients {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     padding: 140px 405px;
     background-image: url(../img/footer_clients_bg_photo.png);
 }
+
+
+/*footer center ---------------------------*/
 
 .footer-about-us {
     background-color: #191919;
@@ -1082,9 +1087,11 @@ html {
     display: flex;
     justify-content: space-between;
 }
+
 .footer-about-us-oursite {
-    width: 280px;
+    width: 271px;
 }
+
 .footer-about-us-logo-namesite {
     text-decoration: none;
     display: flex;
@@ -1156,57 +1163,206 @@ html {
     border-left: 8px solid #d1d1d1;
 }
 
+.footer-about-us-recent-posts {
+    width: 271px;
+    margin: 15px 0 0 0;
+}
+
+.footer-about-us-recent-posts-h {
+    font-family: Raleway;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.footer-about-us-recent-posts-date {
+    display: block;
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #363636;
+    margin: 20px 0 5px 0;
+}
+
+.footer-about-us-recent-posts-text {
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #555555;
+}
+
+.footer-about-us-recent-posts-line {
+    display: block;
+    border-bottom: 2px solid #252525;
+    padding: 0 0 20px 0;
+    text-decoration: none;
+}
+
+.footer-about-us-recent-posts-line:hover .footer-about-us-recent-posts-date {
+    color: #fff;
+}
+
+.footer-about-us-recent-posts-line:hover .footer-about-us-recent-posts-text {
+    color: #c7b299;
+}
+
+.footer-about-us-recent-posts-line:active .footer-about-us-recent-posts-date {
+    color: #363636;
+}
+
+.footer-about-us-recent-posts-line:active .footer-about-us-recent-posts-text {
+    color: #555555;
+}
+
+.footer-about-us-our-twitter {
+    width: 271px;
+    margin: 15px 0 0 0;
+}
+
+.footer-about-us-our-twitter-h {
+    font-family: Raleway;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.footer-about-us-our-twitter-line {
+    display: block;
+    border-bottom: 2px solid #252525;
+    padding: 0 0 20px 0;
+    text-decoration: none;
+}
+
+.footer-about-us-our-twitter-text {
+    display: block;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #555555;
+    margin: 20px 0 5px 0;
+}
+
+.footer-about-us-our-twitter-timer {
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #363636;
+}
+
+.footer-about-us-our-twitter-line:hover .footer-about-us-our-twitter-timer {
+    color: #fff;
+}
+
+.footer-about-us-our-twitter-line:hover .footer-about-us-our-twitter-text {
+    color: #c7b299;
+}
+
+.footer-about-us-our-twitter-line:active .footer-about-us-our-twitter-timer {
+    color: #363636;
+}
+
+.footer-about-us-our-twitter-line:active .footer-about-us-our-twitter-text {
+    color: #555555;
+}
+
+.footer-about-us-dribbble-widget {
+    width: 271px;
+    margin: 15px 0 0 0;
+}
+
+.footer-about-us-dribbble-widget-h {
+    font-family: Raleway;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.footer-about-us-dribbble-widget-img-wrp {
+    width: 270px;
+    height: 206px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    margin: 23px 0 0;
+}
+
+.footer-about-us-dribbble-widget-img-link img {
+    display: block;
+}
+
+.footer-about-us-dribbble-widget-img-link:hover {
+    filter: brightness(50%);
+}
+
+.footer-about-us-dribbble-widget-img-link:active {
+    filter: none;
+}
 
 
+/*footer bottom --------------------------*/
+
+.footer {
+    padding: 48px 375px;
+    background-color: #111111;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-copyright {
+    font-family: Montserrat;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #555555;
+    margin: 0 8px 0 0;
+}
+
+.footer-link {
+    display: inline-block;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: 300;
+    color: #252525;
+    border-left: 1px solid #252525;
+    padding: 0 8px 0 10px;
+}
+
+.footer-link:hover {
+    color: #c7b299;
+}
+
+.footer-link:nth-child(3) {
+    text-transform: uppercase;
+}
+
+.footer-text {
+    display: inline-block;
+    font-family: Montserrat;
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: 300;
+    color: #555555;
+    border-left: 1px solid #252525;
+    padding: 0 8px;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*Обнуление правого margin ----------------*/
+/*Вспомогательные классы ----------------*/
 
 .margin-right-zero {
     margin-right: 0;
+}
+
+.border-none {
+    border: none;
 }
