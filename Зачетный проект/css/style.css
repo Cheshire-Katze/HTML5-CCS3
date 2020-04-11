@@ -3,7 +3,7 @@
 @font-face {
     font-family: 'roboto';
     src: url('../fonts/roboto/roboto-regular.eot');
-    src: url('../fonts/roboto/roboto-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/roboto/roboto-regular.woff2') format('woff2'), url('../fonts/roboto/roboto-regular.woff') format('woff');
+    src: url('../fonts/roboto/roboto-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/roboto/roboto-regular.woff2') format('woff2'), url('../fonts/roboto/roboto-regular.woff') format('woff'),
     url('../fonts/roboto/roboto-regular.ttf') format('ttf');
     font-weight: 400;
     font-style: normal;
@@ -12,7 +12,7 @@
 @font-face {
     font-family: 'montserrat';
     src: url('../fonts/montserrat/montserrat-extralight.eot');
-    src: url('../fonts/montserrat/montserrat-extralight.eot?#iefix') format('embedded-opentype'), url('../fonts/montserrat/montserrat-extralight.woff2') format('woff2'), url('../fonts/montserrat/montserrat-extralight.woff') format('woff');
+    src: url('../fonts/montserrat/montserrat-extralight.eot?#iefix') format('embedded-opentype'), url('../fonts/montserrat/montserrat-extralight.woff2') format('woff2'), url('../fonts/montserrat/montserrat-extralight.woff') format('woff'),
     url('../fonts/montserrat/montserrat-extralight.ttf') format('ttf');
     font-weight: 200;
     font-style: normal;
@@ -21,7 +21,7 @@
 @font-face {
     font-family: 'montserrat';
     src: url('../fonts/montserrat/montserrat-light.eot');
-    src: url('../fonts/montserrat/montserrat-light.eot?#iefix') format('embedded-opentype'), url('../fonts/montserrat/montserrat-light.woff2') format('woff2'), url('../fonts/montserrat/montserrat-light.woff') format('woff');
+    src: url('../fonts/montserrat/montserrat-light.eot?#iefix') format('embedded-opentype'), url('../fonts/montserrat/montserrat-light.woff2') format('woff2'), url('../fonts/montserrat/montserrat-light.woff') format('woff'),
     url('../fonts/montserrat/montserrat-light.ttf') format('ttf');
     font-weight: 300;
     font-style: normal;
@@ -30,7 +30,7 @@
 @font-face {
     font-family: 'montserrat';
     src: url('../fonts/montserrat/montserrat-regular.eot');
-    src: url('../fonts/montserrat/montserrat-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/montserrat/montserrat-regular.woff2') format('woff2'), url('../fonts/montserrat/montserrat-regular.woff') format('woff');
+    src: url('../fonts/montserrat/montserrat-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/montserrat/montserrat-regular.woff2') format('woff2'), url('../fonts/montserrat/montserrat-regular.woff') format('woff'),
     url('../fonts/montserrat/montserrat-regular.ttf') format('ttf');
     font-weight: 400;
     font-style: normal;
@@ -39,7 +39,7 @@
 @font-face {
     font-family: 'raleway';
     src: url('../fonts/raleway/raleway-regular.eot');
-    src: url('../fonts/raleway/raleway-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/raleway/raleway-regular.woff2') format('woff2'), url('../fonts/raleway/raleway-regular.woff') format('woff');
+    src: url('../fonts/raleway/raleway-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/raleway/raleway-regular.woff2') format('woff2'), url('../fonts/raleway/raleway-regular.woff') format('woff'),
     url('../fonts/raleway/raleway-regular.ttf') format('ttf');
     font-weight: 400;
     font-style: normal;
@@ -48,7 +48,7 @@
 @font-face {
     font-family: 'raleway';
     src: url('../fonts/raleway/raleway-medium.eot');
-    src: url('../fonts/raleway/raleway-medium.eot?#iefix') format('embedded-opentype'), url('../fonts/raleway/raleway-medium.woff2') format('woff2'), url('../fonts/raleway/raleway-medium.woff') format('woff');
+    src: url('../fonts/raleway/raleway-medium.eot?#iefix') format('embedded-opentype'), url('../fonts/raleway/raleway-medium.woff2') format('woff2'), url('../fonts/raleway/raleway-medium.woff') format('woff'),
     url('../fonts/raleway/raleway-medium.ttf') format('ttf');
     font-weight: 500;
     font-style: normal;
@@ -57,7 +57,7 @@
 @font-face {
     font-family: 'raleway';
     src: url('../fonts/raleway/raleway-semibold.eot');
-    src: url('../fonts/raleway/raleway-semibold.eot?#iefix') format('embedded-opentype'), url('../fonts/raleway/raleway-semibold.woff2') format('woff2'), url('../fonts/raleway/raleway-semibold.woff') format('woff');
+    src: url('../fonts/raleway/raleway-semibold.eot?#iefix') format('embedded-opentype'), url('../fonts/raleway/raleway-semibold.woff2') format('woff2'), url('../fonts/raleway/raleway-semibold.woff') format('woff'),
     url('../fonts/raleway/raleway-semibold.ttf') format('ttf');
     font-weight: 600;
     font-style: normal;
@@ -66,7 +66,7 @@
 @font-face {
     font-family: 'raleway';
     src: url('../fonts/raleway/raleway-bold.eot');
-    src: url('../fonts/raleway/raleway-bold.eot?#iefix') format('embedded-opentype'), url('../fonts/raleway/raleway-bold.woff2') format('woff2'), url('../fonts/raleway/raleway-bold.woff') format('woff');
+    src: url('../fonts/raleway/raleway-bold.eot?#iefix') format('embedded-opentype'), url('../fonts/raleway/raleway-bold.woff2') format('woff2'), url('../fonts/raleway/raleway-bold.woff') format('woff'),
     url('../fonts/raleway/raleway-bold.ttf') format('ttf');
     font-weight: 700;
     font-style: normal;
@@ -75,7 +75,7 @@
 @font-face {
     font-family: 'raleway';
     src: url('../fonts/raleway/raleway-extrabold.eot');
-    src: url('../fonts/raleway/raleway-extrabold.eot?#iefix') format('embedded-opentype'), url('../fonts/raleway/raleway-extrabold.woff2') format('woff2'), url('../fonts/raleway/raleway-extrabold.woff') format('woff');
+    src: url('../fonts/raleway/raleway-extrabold.eot?#iefix') format('embedded-opentype'), url('../fonts/raleway/raleway-extrabold.woff2') format('woff2'), url('../fonts/raleway/raleway-extrabold.woff') format('woff'),
     url('../fonts/raleway/raleway-extrabold.ttf') format('ttf');
     font-weight: 800;
     font-style: normal;
@@ -1332,7 +1332,7 @@ html {
     font-size: 13px;
     line-height: 13px;
     font-weight: 300;
-    color: #252525;
+    color: #555555;
     border-left: 1px solid #252525;
     padding: 0 8px 0 10px;
 }
