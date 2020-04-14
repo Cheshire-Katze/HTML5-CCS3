@@ -136,8 +136,14 @@ html {
     letter-spacing: -0.04em;
 }
 
+.header-list-basket-search-wrp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .header-list {
-    width: 780px;
+    width: 637px;
     list-style: none;
     display: flex;
     align-items: center;
@@ -170,11 +176,13 @@ html {
 }
 
 
-/*search --------------------------------*/
+/*basket & search ---------------------------*/
 
-.header-search-form {
-    width: 27px;
-    height: 28px;
+.header-basket-search-form {
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0 63px;
     position: relative;
 }
 
@@ -206,7 +214,7 @@ html {
 }
 
 .header-search-input:focus {
-    width: 167px;
+    width: 130px;
     min-height: 15px;
     transition: width 1s ease;
     border-bottom: 1px solid #fff;
