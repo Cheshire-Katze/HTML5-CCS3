@@ -136,8 +136,14 @@ html {
     letter-spacing: -0.04em;
 }
 
+.header-list-basket-search-wrp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .header-list {
-    width: 780px;
+    width: 637px;
     list-style: none;
     display: flex;
     align-items: center;
@@ -170,11 +176,13 @@ html {
 }
 
 
-/*search --------------------------------*/
+/*basket & search ---------------------------*/
 
-.header-search-form {
-    width: 27px;
-    height: 28px;
+.header-basket-search-form {
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0 63px;
     position: relative;
 }
 
@@ -206,7 +214,7 @@ html {
 }
 
 .header-search-input:focus {
-    width: 167px;
+    width: 130px;
     min-height: 15px;
     transition: width 1s ease;
     border-bottom: 1px solid #fff;
@@ -285,6 +293,8 @@ html {
     color: #ffffff;
     padding: 15px;
     margin: 30px 0 0 200px;
+    transition: background-color 500ms ease-out,
+                color 300ms ease-out;
 }
 
 .header-slider-link:hover {
@@ -507,6 +517,8 @@ html {
     padding: 20px 29px;
     background-color: #998675;
     border-radius: 3.0px;
+    transition: background-color 500ms ease-out,
+                color 500ms ease-out;
 }
 
 .product-meta-a:hover {
@@ -654,14 +666,17 @@ html {
     border: none;
     outline: none;
     cursor: pointer;
+    transition: background-color 500ms ease-out;
 }
 
 .our-projects-btn:hover {
     background-color: #4e3427;
+    
 }
 
 .our-projects-btn:active {
     background-color: #998675;
+    
 }
 
 .our-project-btn-link,
@@ -1061,12 +1076,22 @@ html {
 
 /*footer ----------------------------------*/
 
-.footer-clients {
+.footer-partners {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 140px 405px;
     background-image: url(../img/footer_clients_bg_photo.png);
+}
+
+.footer-partner {
+    transform: scale(1);
+    transition: transform 300ms ease-out;
+}
+
+.footer-partner:hover {
+    transform: scale(1.2);
+    
 }
 
 
@@ -1238,6 +1263,14 @@ html {
     margin: 20px 0 5px 0;
 }
 
+.twitter-text-word-color1{
+    color: #00bff3;
+}
+
+.twitter-text-word-color2{
+    color: #959595;
+}
+
 .footer-about-us-our-twitter-timer {
     font-family: Montserrat;
     font-size: 12px;
@@ -1349,6 +1382,10 @@ html {
     color: #555555;
     border-left: 1px solid #252525;
     padding: 0 8px;
+}
+
+.footer-selected-words {
+    color: #959595
 }
 
 
