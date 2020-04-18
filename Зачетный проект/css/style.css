@@ -1564,6 +1564,41 @@ html {
     
 /*    блок 8 statistics -----------------------------*/
     
+    .statistics {
+        padding: 10px 0;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .statistic {
+        margin: 50px 0 0  0;
+    }
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
