@@ -1481,7 +1481,6 @@ html {
     
     .our-projects {
         padding: 50px 5px;
-        background-color: #fbfaf8;
     }
     
     .our-projects-p {
@@ -1574,7 +1573,111 @@ html {
         margin: 50px 0 0  0;
     }
     
-  
+/*    блок 9 recent-posts ---------------------------*/
+    
+    .recent-posts {
+        padding: 30px 0;
+    }
+    
+    .recent-posts-p {
+        width: 100%;
+    }
+
+    .recent-posts-carts-wrp {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .recent-posts-cart-wrp {
+        margin: 15px 0 0 0;
+    }
+    
+    .recent-posts-pagination-left-link,
+    .recent-posts-pagination-right-link {
+        display: none;
+    }
+    
+/*    блок 10 partners top ------------------------*/
+    
+    .footer-partners {
+        padding: 0;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .footer-partner {
+        width: 150px;
+        height: 120px;
+        margin: 20px 20px;
+    }
+    
+/*    блок 11 footer-about-us center ---------------------*/
+    
+    
+    .footer-about-us {
+        padding: 0;
+        flex-direction: column;
+        justify-content: space-between;
+        /align-items: center;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+/*    блок 12 footer bottom -----------------------*/
+    
+    .footer {
+        padding: 30px 0;
+    }
+    
+    .footer-text {
+        border: none;
+    }
+    
+    .footer-copyright {
+        /margin: 0;
+    }
+    
+    .footer-wrp {
+        text-align: center;
+    }
+    
+    .footer-link:nth-child(2) {
+       border: none;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
