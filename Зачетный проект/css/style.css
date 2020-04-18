@@ -1111,6 +1111,10 @@ html {
     width: 271px;
 }
 
+.footer-about-us-oursite-modile {
+    display: none;
+}
+
 .footer-about-us-logo-namesite {
     text-decoration: none;
     display: flex;
@@ -1318,7 +1322,7 @@ html {
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between;
-    margin: 23px 0 0;
+    margin: 23px 0 0 0;
 }
 
 .footer-about-us-dribbble-widget-img-link img {
@@ -1615,19 +1619,54 @@ html {
     
     
     .footer-about-us {
-        padding: 0;
-        flex-direction: column;
-        justify-content: space-between;
-        /align-items: center;
+        padding: 30px 5px;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     
+    .footer-about-us-oursite {
+        display: none;
+    }
     
+    .footer-about-us-oursite-text {
+        padding: 20px 0 10px 0;
+    }
     
+    .footer-about-us-oursite-modile {
+        display: block;
+        width: 230px;
+    }
     
+    .footer-about-us-dribbble-widget {
+        width: 230px;
+        margin: 35px 10px 0 0;
+    }
     
+    .footer-about-us-dribbble-widget-h {
+        display: block;
+        text-align: right;
+    }
     
+    .footer-about-us-dribbble-widget-img-wrp {
+        width: 230px;
+        height: 166px;
+    }
     
+    .footer-about-us-dribbble-widget-img-link img {
+        width: 110px;
+        height: 78px;
+    }
     
+    .footer-about-us-recent-posts {
+        width: 230px;
+        margin: 0 10px 0 0;
+        text-align: right;
+    }
+    
+    .footer-about-us-our-twitter {
+        width: 230px;
+        margin: 0;
+    }
     
     
     
