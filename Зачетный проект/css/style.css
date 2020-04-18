@@ -142,7 +142,7 @@ html {
     align-items: center;
 }
 
-.mobile-menu-toggle-input {
+.mobile-input {
     display: none;
 }
 
@@ -150,6 +150,7 @@ html {
     width: 637px;
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
@@ -591,15 +592,15 @@ html {
 }
 
 .our-projects-carts-wrp {
-    height: 704px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between;
 }
 
 .our-project-img_text {
+    margin: 0 0 30px 0;
     position: relative;
 }
 
@@ -664,7 +665,7 @@ html {
     text-transform: uppercase;
     color: #ffffff;
     padding: 18px 44px;
-    margin: 40px 0 0 500px;
+    margin: 0 0 0 500px;
     border: none;
     outline: none;
     cursor: pointer;
@@ -732,7 +733,7 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 705px;
+    padding: 209px 680px;
     background-image: url(../img/bg_photo_video_presentation.png);
     background-repeat: no-repeat;
     position: relative;
@@ -770,7 +771,6 @@ html {
 }
 
 .video-presentation-p {
-    width: 565px;
     font-family: Montserrat;
     font-size: 16px;
     line-height: 28px;
@@ -818,6 +818,10 @@ html {
     font-weight: 400;
     color: #8c8c8c;
     margin: 30px 0 30px;
+}
+
+.mobile-devices-img-mob-ver {
+    display: none;
 }
 
 .mobile-devices-text-list {
@@ -1398,12 +1402,18 @@ html {
     border: none;
 }
 
+
+
+
+
 /*Мобильная версия -----------------------*/
 
-@media (max-width: 480px) {
+@media (max-width: 1024px) {
+    
+/*    header ------------------------------*/
     
     .container {
-        width: 100%;
+        width: 480px;
         margin: 0 auto;
         overflow-x: hidden;
     }
@@ -1416,78 +1426,13 @@ html {
     
     .header-wrp-logo-list {
         display: flex;
-        justify-content: space-between;
-        align-items: center;
         padding: 20px 30px;
     }
     
-    .header-list-basket-search-wrp {
-        display: block;
-        position: relative;
-        top: 30px;
-        left: 50px;
-        z-index: 1;
-        -webkit-user-select: none;
-        user-select: none;
+    .header-list {
+        width: 150px;
     }
-    
-    .mobile-menu-toggle-input {
-        display: block;
-        width: 50px;
-        height: 50px;
-        position: absolute;
-        top: -7px;
-        left: -5px;
-        cursor: pointer;
-        z-index: 2;
-        opacity: 0;
-        -webkit-touch-callout: none;
-    }
-    
-    .mobile-menu-toggle-span {
-          display: block;
-          width: 32px;
-          height: 4px;
-          z-index: 1;
-          border-radius: 4px;
-          position: relative;
-          background: #fff;
-          margin-bottom: 7px;
-          transform-origin: 4px 0px;
-          transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
-          background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
-          opacity 0.55s ease;
-      }
-    
-    .menu-toggle span:first-child {
-        transform-origin: 0% 0%;
-        transition: width, 0.5s;
-    }
-    
-    .menu-toggle span:nth-last-child(2) {
-        transform-origin: 0% 100%;
-        width: 22px;
-        transition: width, 0.5s;
-    }
-    
-    .menu-toggle input:checked ~ .mobile-menu-toggle-span {
-        opacity: 1;
-        transform: rotate(45deg) translate(0px, 0px);
-        background: #232323;
-        width: 36px;
-        transition: width, 0.5s;
-    }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
     .header-slider {
         display: none;
     }
@@ -1496,6 +1441,128 @@ html {
         display: none;
     }
     
+    .header-basket-search-form {
+        /display: none;
+    }
+    
+    
+/*    блок 2 links to --------------------------*/
+    
+    .links-to {
+        padding: 20px 0;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: space-between;
+    }
+    
+    .link-to {
+        width: 220px;
+        margin: 50px 0 0 0;
+    }
+    
+    
+    .link-to:before {
+        left: 75px;
+    }
+    
+/*    блок 3 product ---------------------------*/
+    
+    .product {
+        display: none;
+    }
+    
+/*    блок 4 мета ------------------------------*/
+    
+    .product-meta {
+        display: none;
+    }
+    
+/*    блок 5 our products ---------------------*/
+    
+    .our-projects {
+        padding: 50px 5px;
+        background-color: #fbfaf8;
+    }
+    
+    .our-projects-p {
+        padding: 0;
+    }
+    
+    .our-projects-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .our-projects-list-btn {
+        padding: 5px 10px;
+        margin: 0;
+    }
+    
+    .our-projects-carts-wrp {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    
+    .our-projects-btn {
+        margin: 0 0 0 155px ;
+    }
+    
+/*    блок 6 video-presentation -------------------------*/
+    
+    .video-presentation {
+        padding: 10px;
+        background-position: center;
+    }
+    
+/*    блок 7 mobile_devices ------------------------------*/
+    
+    .mobile-devices {
+        padding: 30px 0 0 10px;
+        background-color: #fff;
+    }
+    
+    .mobile-devices-img {
+        display: none;
+    }
+    
+    .mobile-devices-text {
+        margin: 0;
+    }
+    
+    .mobile-devices-text-h3 {
+        text-align: center;
+    }
+    
+    .mobile-devices-text-p {
+        margin: 10px 0 20px;
+    }
+    
+    .mobile-devices-img-mob-ver {
+        display: block;
+        float: left;
+        margin: 0 10px 0 0;
+    }
+    
+    .mobile-devices-text-list {
+        margin: 0px;
+    }
+    
+    .mobile-devices-text-list-item {
+        font-size: 12px;
+        line-height: 20px;
+        text-align: left;
+        margin: 0 0 5px 0;
+    }
+    
+    .mobile-devices-text-list-item:before {
+        top: 0px;
+        left: 170px;
+    }
+    
+/*    блок 8 statistics -----------------------------*/
     
     
     
@@ -1503,16 +1570,11 @@ html {
     
     
     
+/*    Вспомогательные классы моб. версии---------*/
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    .margin-top-zero {
+        margin-top: 0;
+    }
     
     
     
@@ -1530,3 +1592,107 @@ html {
     
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+    .menu-toggle {
+        display: block;
+        position: relative;
+        top: 50px;
+        left: 50px;
+        z-index: 1;
+        -webkit-user-select: none;
+        user-select: none;
+    }
+    
+    .mobile-input {
+        display: block;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: -7px;
+        left: -5px;
+        cursor: pointer;
+        z-index: 2;
+        opacity: 0;
+    }
+    
+
+    .mobile-menu-toggle-span {
+        display: block;
+        width: 32px;
+        height: 4px;
+        z-index: 1;
+        border-radius: 4px;
+        position: relative;
+        background: grey;
+        margin-bottom: 7px;
+        transform-origin: 4px 0px;
+        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), opacity 0.55s ease;
+    }
+    
+    .mobile-menu-toggle-span:first-child {
+        transform-origin: 0% 0%;
+        transition: width, 0.5s;
+    }
+   
+    .mobile-menu-toggle-span:nth-last-child(2) {
+        transform-origin: 0% 100%;
+        width: 22px;
+        transition: width, 0.5s;
+    }
+ 
+    .menu-toggle input:checked ~ span {
+        opacity: 1;
+        transform: rotate(45deg) translate(0px, 0px);
+        background: #232323;
+        width: 36px;
+        transition: width, 0.5s;
+    }
+       
+    .menu-toggle input:checked ~ span:nth-last-child(3) {
+        opacity: 0;
+        transform: rotate(0deg) scale(0.2, 0.2);
+    }
+    
+    .menu-toggle input:checked ~ span:nth-last-child(2) {
+        opacity: 1;
+        transform: rotate(-45deg) translate(0, 0px);
+        width: 36px;
+    }
+    
+    
+    
+
+    .header-list {
+        position: absolute;
+        left: 100px;
+        /margin: 200px 0 0 -60px;
+        /padding-top: 125px;
+        /background: grey;
+        list-style-type: none;
+        transform: translate(-100%, 0%);
+        transform-origin: 0% 0%;
+        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+    }
+    
+    .menu-toggle input:checked ~ ul {
+        transform: scale(1.0, 1.0);
+        opacity: 1;
+    }*/
