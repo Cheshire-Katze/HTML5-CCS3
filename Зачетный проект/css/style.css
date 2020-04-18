@@ -142,6 +142,10 @@ html {
     align-items: center;
 }
 
+.mobile-menu-toggle-input {
+    display: none;
+}
+
 .header-list {
     width: 637px;
     list-style: none;
@@ -1397,8 +1401,81 @@ html {
 /*Мобильная версия -----------------------*/
 
 @media (max-width: 480px) {
-    .header-slider {
-        display: none;
+    
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        overflow-x: hidden;
+    }
+    
+    .header {
+        min-height: 150px;
+        background-image: url(../img/bg_photo_header_mobile.png);
+        background-repeat: no-repeat;
+    }
+    
+    .header-wrp-logo-list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 30px;
+    }
+    
+    .header-list-basket-search-wrp {
+        display: block;
+        position: relative;
+        top: 30px;
+        left: 50px;
+        z-index: 1;
+        -webkit-user-select: none;
+        user-select: none;
+    }
+    
+    .mobile-menu-toggle-input {
+        display: block;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: -7px;
+        left: -5px;
+        cursor: pointer;
+        z-index: 2;
+        opacity: 0;
+        -webkit-touch-callout: none;
+    }
+    
+    .mobile-menu-toggle-span {
+          display: block;
+          width: 32px;
+          height: 4px;
+          z-index: 1;
+          border-radius: 4px;
+          position: relative;
+          background: #fff;
+          margin-bottom: 7px;
+          transform-origin: 4px 0px;
+          transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+          background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+          opacity 0.55s ease;
+      }
+    
+    .menu-toggle span:first-child {
+        transform-origin: 0% 0%;
+        transition: width, 0.5s;
+    }
+    
+    .menu-toggle span:nth-last-child(2) {
+        transform-origin: 0% 100%;
+        width: 22px;
+        transition: width, 0.5s;
+    }
+    
+    .menu-toggle input:checked ~ .mobile-menu-toggle-span {
+        opacity: 1;
+        transform: rotate(45deg) translate(0px, 0px);
+        background: #232323;
+        width: 36px;
+        transition: width, 0.5s;
     }
     
     
@@ -1411,38 +1488,13 @@ html {
     
     
     
+    .header-slider {
+        display: none;
+    }
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    .pagination {
+        display: none;
+    }
     
     
     
