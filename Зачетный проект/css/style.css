@@ -1408,13 +1408,13 @@ html {
 
 /*Мобильная версия -----------------------*/
 
-@media (max-width: 1024px) {
+@media (max-width: 480px) {
     
 /*    header ------------------------------*/
     
     .container {
-        width: 480px;
-        margin: 0 auto;
+        width: 100%;
+        /margin: 0 auto;
         overflow-x: hidden;
     }
     
@@ -1425,8 +1425,7 @@ html {
     }
     
     .header-wrp-logo-list {
-        display: flex;
-        padding: 20px 30px;
+        padding: 20px 10px;
     }
     
     .header-list {
@@ -1477,7 +1476,7 @@ html {
         display: none;
     }
     
-/*    блок 5 our products ---------------------*/
+/*    блок 5 our projects ---------------------*/
     
     .our-projects {
         padding: 50px 5px;
@@ -1495,7 +1494,7 @@ html {
     }
     
     .our-projects-list-btn {
-        padding: 5px 10px;
+        padding: 5px 8px;
         margin: 0;
     }
     
@@ -1658,13 +1657,13 @@ html {
     }
     
     .footer-about-us-recent-posts {
-        width: 230px;
+        width: 220px;
         margin: 0 10px 0 0;
         text-align: right;
     }
     
     .footer-about-us-our-twitter {
-        width: 230px;
+        width: 220px;
         margin: 0;
     }
     
