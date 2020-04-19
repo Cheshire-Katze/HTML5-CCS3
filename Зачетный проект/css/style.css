@@ -1111,10 +1111,6 @@ html {
     width: 271px;
 }
 
-.footer-about-us-oursite-modile {
-    display: none;
-}
-
 .footer-about-us-logo-namesite {
     text-decoration: none;
     display: flex;
@@ -1625,31 +1621,35 @@ html {
     }
     
     .footer-about-us-oursite {
-        display: none;
+        width: 100%;
+        margin: 0 0 20px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     
     .footer-about-us-oursite-text {
-        padding: 20px 0 10px 0;
+        padding: 20px 0 0 0;
     }
     
-    .footer-about-us-oursite-modile {
-        display: block;
-        width: 230px;
+    .footer-about-us-oursite-link {
+        margin: 0 0 0 325px;
+    }
+    
+    .footer-about-us-oursite-link:before {
+        top: 4px;
     }
     
     .footer-about-us-dribbble-widget {
-        width: 230px;
-        margin: 35px 10px 0 0;
-    }
-    
-    .footer-about-us-dribbble-widget-h {
-        display: block;
-        text-align: right;
+        width: 100%;
+        margin: 0;
+        text-align: center;
     }
     
     .footer-about-us-dribbble-widget-img-wrp {
-        width: 230px;
-        height: 166px;
+        width: 100px;
+        height: 100%;
+        flex-wrap: nowrap;
     }
     
     .footer-about-us-dribbble-widget-img-link img {
@@ -1667,24 +1667,6 @@ html {
         width: 230px;
         margin: 0;
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
 /*    блок 12 footer bottom -----------------------*/
     
