@@ -1414,7 +1414,7 @@ html {
     
     .container {
         width: 100%;
-        /margin: 0 auto;
+        margin: 0 auto;
         overflow-x: hidden;
     }
     
@@ -1422,16 +1422,44 @@ html {
         min-height: 150px;
         background-image: url(../img/bg_photo_header_mobile.png);
         background-repeat: no-repeat;
+        position: relative;
+    }
+    
+    .header-list-basket-search-wrp {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
     }
     
     .header-wrp-logo-list {
-        padding: 20px 10px;
+        padding: 20px 5px;
+        justify-content: flex-start;
     }
     
     .header-list {
-        width: 150px;
+        visibility: hidden;
+        opacity: 0;
+        transition: 1s;
+        width: 250px;
+        position: absolute;
+        top: 100px;
+        left: 5px;
     }
 
+    .header-basket-search-form {
+        visibility: hidden;
+        opacity: 0;
+        transition: 1s;
+        width: 100px;
+        margin: 0;
+        top: 50px;
+        left: 163px;
+    }
+    
+    .header-search-input:focus {
+        width: 100%;
+    }
+    
     .header-slider {
         display: none;
     }
@@ -1440,9 +1468,138 @@ html {
         display: none;
     }
     
-    .header-basket-search-form {
-        /display: none;
+/*    кнопка меню ------------------------------*/
+    
+    .mobile-input {
+        display: block;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 35px;
+        left: 410px;
+        z-index: 2;
+        cursor: pointer;
+        z-index: 2;
+        opacity: 0;
     }
+    
+    .header-list-basket-search-wrp input:checked ~ nav ul {
+        visibility: visible;
+        opacity: 1;
+        transition: 1s;
+    }
+    
+    .header-list-basket-search-wrp input:checked ~ form {
+        visibility: visible;
+        opacity: 1;
+        transition: 1s;
+    }
+    
+    .header-list-basket-search-wrp span {
+        top: 22px;
+        left: 196px;
+        display: block;
+        width: 32px;
+        height: 4px;
+        z-index: 1;
+        border-radius: 4px;
+        position: relative;
+        background: #fff;
+        margin-bottom: 7px;
+        transform-origin: 4px 0px;
+        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), opacity 0.55s ease;
+    }
+    
+    .header-list-basket-search-wrp span:first-child {
+        transform-origin: 0% 0%;
+        transition: width, 0.5s;
+    }
+    
+    .header-list-basket-search-wrp span:nth-last-child(3) {
+        transform-origin: 0% 100%;
+        width: 32px;
+        transition: width, 0.5s;
+    }
+    
+    .header-list-basket-search-wrp input:checked ~ span {
+        opacity: 1;
+        transform: rotate(45deg) translate(0px, 0px);
+        background: #c7b299;
+        width: 36px;
+        transition: width, 0.5s;
+    }
+    
+    .header-list-basket-search-wrp input:checked ~ span:nth-last-child(4) {
+        opacity: 0;
+        transform: rotate(0deg) scale(0.2, 0.2);
+    }
+    
+    .header-list-basket-search-wrp input:checked ~ span:nth-last-child(3) {
+        opacity: 1;
+        transform: rotate(-45deg) translate(0, 0px);
+        width: 36px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
 /*    блок 2 links to --------------------------*/
@@ -1689,66 +1846,11 @@ html {
        border: none;
     }
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
 /*    Вспомогательные классы моб. версии---------*/
     
     .margin-top-zero {
         margin-top: 0;
-    }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    } 
 }
 
 
@@ -1768,89 +1870,4 @@ html {
 
 
 
-/*
-    .menu-toggle {
-        display: block;
-        position: relative;
-        top: 50px;
-        left: 50px;
-        z-index: 1;
-        -webkit-user-select: none;
-        user-select: none;
-    }
-    
-    .mobile-input {
-        display: block;
-        width: 50px;
-        height: 50px;
-        position: absolute;
-        top: -7px;
-        left: -5px;
-        cursor: pointer;
-        z-index: 2;
-        opacity: 0;
-    }
-    
 
-    .mobile-menu-toggle-span {
-        display: block;
-        width: 32px;
-        height: 4px;
-        z-index: 1;
-        border-radius: 4px;
-        position: relative;
-        background: grey;
-        margin-bottom: 7px;
-        transform-origin: 4px 0px;
-        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), opacity 0.55s ease;
-    }
-    
-    .mobile-menu-toggle-span:first-child {
-        transform-origin: 0% 0%;
-        transition: width, 0.5s;
-    }
-   
-    .mobile-menu-toggle-span:nth-last-child(2) {
-        transform-origin: 0% 100%;
-        width: 22px;
-        transition: width, 0.5s;
-    }
- 
-    .menu-toggle input:checked ~ span {
-        opacity: 1;
-        transform: rotate(45deg) translate(0px, 0px);
-        background: #232323;
-        width: 36px;
-        transition: width, 0.5s;
-    }
-       
-    .menu-toggle input:checked ~ span:nth-last-child(3) {
-        opacity: 0;
-        transform: rotate(0deg) scale(0.2, 0.2);
-    }
-    
-    .menu-toggle input:checked ~ span:nth-last-child(2) {
-        opacity: 1;
-        transform: rotate(-45deg) translate(0, 0px);
-        width: 36px;
-    }
-    
-    
-    
-
-    .header-list {
-        position: absolute;
-        left: 100px;
-        /margin: 200px 0 0 -60px;
-        /padding-top: 125px;
-        /background: grey;
-        list-style-type: none;
-        transform: translate(-100%, 0%);
-        transform-origin: 0% 0%;
-        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
-    }
-    
-    .menu-toggle input:checked ~ ul {
-        transform: scale(1.0, 1.0);
-        opacity: 1;
-    }*/
