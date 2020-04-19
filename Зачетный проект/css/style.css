@@ -1403,73 +1403,58 @@ html {
 }
 
 
-
-
-
 /*Мобильная версия -----------------------*/
 
 @media (max-width: 480px) {
-    
-/*    header ------------------------------*/
-    
+    /*    header ------------------------------*/
     .container {
         width: 100%;
         margin: 0 auto;
         overflow-x: hidden;
     }
-    
     .header {
         min-height: 150px;
         background-image: url(../img/bg_photo_header_mobile.png);
         background-repeat: no-repeat;
         position: relative;
     }
-    
     .header-list-basket-search-wrp {
         display: flex;
         flex-direction: column;
         margin: 0;
     }
-    
     .header-wrp-logo-list {
         padding: 20px 5px;
         justify-content: flex-start;
     }
-    
     .header-list {
         visibility: hidden;
         opacity: 0;
-        transition: 1s;
+        transition: 0.5s;
         width: 250px;
         position: absolute;
         top: 100px;
         left: 5px;
     }
-
     .header-basket-search-form {
         visibility: hidden;
         opacity: 0;
-        transition: 1s;
+        transition: 0.5s;
         width: 100px;
         margin: 0;
         top: 50px;
         left: 163px;
     }
-    
     .header-search-input:focus {
         width: 100%;
     }
-    
     .header-slider {
         display: none;
     }
-    
     .pagination {
         display: none;
     }
-    
-/*    кнопка меню ------------------------------*/
-    
+    /*    кнопка меню ------------------------------*/
     .mobile-input {
         display: block;
         width: 40px;
@@ -1482,19 +1467,16 @@ html {
         z-index: 2;
         opacity: 0;
     }
-    
     .header-list-basket-search-wrp input:checked ~ nav ul {
         visibility: visible;
         opacity: 1;
-        transition: 1s;
+        transition: 0.5s;
     }
-    
     .header-list-basket-search-wrp input:checked ~ form {
         visibility: visible;
         opacity: 1;
-        transition: 1s;
+        transition: 0.5s;
     }
-    
     .header-list-basket-search-wrp span {
         top: 22px;
         left: 196px;
@@ -1509,18 +1491,15 @@ html {
         transform-origin: 4px 0px;
         transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), opacity 0.55s ease;
     }
-    
     .header-list-basket-search-wrp span:first-child {
         transform-origin: 0% 0%;
         transition: width, 0.5s;
     }
-    
     .header-list-basket-search-wrp span:nth-last-child(3) {
         transform-origin: 0% 100%;
         width: 32px;
         transition: width, 0.5s;
     }
-    
     .header-list-basket-search-wrp input:checked ~ span {
         opacity: 1;
         transform: rotate(45deg) translate(0px, 0px);
@@ -1528,254 +1507,146 @@ html {
         width: 36px;
         transition: width, 0.5s;
     }
-    
     .header-list-basket-search-wrp input:checked ~ span:nth-last-child(4) {
         opacity: 0;
         transform: rotate(0deg) scale(0.2, 0.2);
     }
-    
     .header-list-basket-search-wrp input:checked ~ span:nth-last-child(3) {
         opacity: 1;
         transform: rotate(-45deg) translate(0, 0px);
         width: 36px;
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-/*    блок 2 links to --------------------------*/
-    
+    /*    блок 2 links to --------------------------*/
     .links-to {
         padding: 20px 0;
         flex-wrap: wrap;
         justify-content: space-between;
         align-content: space-between;
     }
-    
     .link-to {
         width: 220px;
         margin: 50px 0 0 0;
     }
-    
-    
     .link-to:before {
         left: 75px;
     }
-    
-/*    блок 3 product ---------------------------*/
-    
+    /*    блок 3 product ---------------------------*/
     .product {
         display: none;
     }
-    
-/*    блок 4 мета ------------------------------*/
-    
+    /*    блок 4 мета ------------------------------*/
     .product-meta {
         display: none;
     }
-    
-/*    блок 5 our projects ---------------------*/
-    
+    /*    блок 5 our projects ---------------------*/
     .our-projects {
         padding: 50px 5px;
     }
-    
     .our-projects-p {
         padding: 0;
     }
-    
     .our-projects-list {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
     }
-    
     .our-projects-list-btn {
         padding: 5px 8px;
         margin: 0;
     }
-    
     .our-projects-carts-wrp {
         flex-direction: column;
         flex-wrap: nowrap;
         align-items: center;
     }
-    
     .our-projects-btn {
-        margin: 0 0 0 155px ;
+        margin: 0 0 0 155px;
     }
-    
-/*    блок 6 video-presentation -------------------------*/
-    
+    /*    блок 6 video-presentation -------------------------*/
     .video-presentation {
         padding: 10px;
         background-position: center;
     }
-    
-/*    блок 7 mobile_devices ------------------------------*/
-    
+    /*    блок 7 mobile_devices ------------------------------*/
     .mobile-devices {
         padding: 30px 0 0 10px;
         background-color: #fff;
     }
-    
     .mobile-devices-img {
         display: none;
     }
-    
     .mobile-devices-text {
         margin: 0;
     }
-    
     .mobile-devices-text-h3 {
         text-align: center;
     }
-    
     .mobile-devices-text-p {
         margin: 10px 0 20px;
     }
-    
     .mobile-devices-img-mob-ver {
         display: block;
         float: left;
         margin: 0 10px 0 0;
     }
-    
     .mobile-devices-text-list {
         margin: 0px;
     }
-    
     .mobile-devices-text-list-item {
         font-size: 12px;
         line-height: 20px;
         text-align: left;
         margin: 0 0 5px 0;
     }
-    
     .mobile-devices-text-list-item:before {
         top: 0px;
         left: 170px;
     }
-    
-/*    блок 8 statistics -----------------------------*/
-    
+    /*    блок 8 statistics -----------------------------*/
     .statistics {
         padding: 10px 0;
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
-    
     .statistic {
-        margin: 50px 0 0  0;
+        margin: 50px 0 0 0;
     }
-    
-/*    блок 9 recent-posts ---------------------------*/
-    
+    /*    блок 9 recent-posts ---------------------------*/
     .recent-posts {
         padding: 30px 0;
     }
-    
     .recent-posts-p {
         width: 100%;
     }
-
     .recent-posts-carts-wrp {
         flex-wrap: wrap;
         justify-content: center;
     }
-    
     .recent-posts-cart-wrp {
         margin: 15px 0 0 0;
     }
-    
     .recent-posts-pagination-left-link,
     .recent-posts-pagination-right-link {
         display: none;
     }
-    
-/*    блок 10 partners top ------------------------*/
-    
+    /*    блок 10 partners top ------------------------*/
     .footer-partners {
         padding: 0;
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
-    
     .footer-partner {
         width: 150px;
         height: 120px;
         margin: 20px 20px;
     }
-    
-/*    блок 11 footer-about-us center ---------------------*/
-    
-    
+    /*    блок 11 footer-about-us center ---------------------*/
     .footer-about-us {
         padding: 30px 5px;
         flex-wrap: wrap;
         justify-content: center;
     }
-    
     .footer-about-us-oursite {
         width: 100%;
         margin: 0 0 20px 0;
@@ -1783,91 +1654,56 @@ html {
         flex-direction: column;
         align-items: center;
     }
-    
     .footer-about-us-oursite-text {
         padding: 20px 0 0 0;
     }
-    
     .footer-about-us-oursite-link {
         margin: 0 0 0 325px;
     }
-    
     .footer-about-us-oursite-link:before {
         top: 4px;
     }
-    
     .footer-about-us-dribbble-widget {
         width: 100%;
         margin: 0;
         text-align: center;
     }
-    
     .footer-about-us-dribbble-widget-img-wrp {
         width: 100%;
         height: 100%;
         flex-wrap: nowrap;
     }
-    
     .footer-about-us-dribbble-widget-img-link img {
         width: 110px;
         height: 78px;
     }
-    
     .footer-about-us-recent-posts {
         width: 220px;
         margin: 0 10px 0 0;
         text-align: right;
     }
-    
     .footer-about-us-our-twitter {
         width: 220px;
         margin: 0;
     }
-    
-/*    блок 12 footer bottom -----------------------*/
-    
+    /*    блок 12 footer bottom -----------------------*/
     .footer {
         padding: 30px 0;
     }
-    
     .footer-text {
         border: none;
     }
-    
     .footer-copyright {
         /margin: 0;
     }
-    
     .footer-wrp {
         text-align: center;
     }
-    
     .footer-link:nth-child(2) {
-       border: none;
+        border: none;
     }
-    
-/*    Вспомогательные классы моб. версии---------*/
-    
+    /*    Вспомогательные классы моб. версии---------*/
     .margin-top-zero {
         margin-top: 0;
-    } 
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
