@@ -1647,7 +1647,7 @@ html {
     }
     
     .footer-about-us-dribbble-widget-img-wrp {
-        width: 100px;
+        width: 100%;
         height: 100%;
         flex-wrap: nowrap;
     }
